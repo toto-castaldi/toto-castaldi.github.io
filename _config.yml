@@ -1,0 +1,31 @@
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://toto-castaldi.github.io/
+author: Toto Castaldi
+
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: Antonio (Toto) Castaldi's Resume
+name: Toto Castaldi
+email: toto.castaldi@gmail.com
+email_full: mailto:toto.castaldi@gmail.com
+website: github.com/toto-castaldi
+website_full: https://github.com/toto-castaldi
+github: 
+twitter: 
+tel: +39 333 2986272
+tel_full: tel:+393332986272
+country: 
+google_analytics: 
+
+# needed for travis-ci build
+exclude: [vendor]
