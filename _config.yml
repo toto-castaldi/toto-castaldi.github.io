@@ -20,12 +20,12 @@ email: toto.castaldi@gmail.com
 email_full: mailto:toto.castaldi@gmail.com
 website: github.com/toto-castaldi
 website_full: https://github.com/toto-castaldi
-github: 
-twitter: 
+github:
+twitter:
 tel: +39 333 2986272
 tel_full: tel:+393332986272
-country: 
-google_analytics: 
+country:
+google_analytics: UA-70804895-1
 
 # needed for travis-ci build
 exclude: [vendor]
