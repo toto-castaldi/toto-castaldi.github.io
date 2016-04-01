@@ -1,4 +1,4 @@
-highlighter: pygments
+rouge: pygments
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
