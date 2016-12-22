@@ -2,11 +2,10 @@ toto-castaldi.github.io
 ==================
 
 ```
-> gem install jekyll
-> jekyll serve
+> docker run -p 4000:4000 -v `pwd`:/srv/jekyll jekyll/jekyll
 ```
 
-open your browser at http://localhost:4000
+open your browser at http://0.0.0.0:4000
 
 #### greetings
 
