@@ -2,7 +2,7 @@
 layout: post
 title:  "Corso di programmazione"
 date:   2020-03-28 19:00:00 +0100
-categories: corso javascript js p5js videogame
+tags: corso javascript js p5js videogame
 ---
 L'idea di tornare a insegnare la programmazione ai ragazzi mi gira in testa da un po' di tempo.
 
