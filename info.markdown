@@ -20,7 +20,7 @@ Mi puoi contattare alla mail [toto.castaldi@gmail.com](mailto:toto.castaldi@gmai
 
  - [Github](https://github.com/toto-castaldi)
  - [Linkedin](http://www.linkedin.com/in/antoniocastaldi)
- - [Skillbill)](http://www.skillbill.it)
+ - [Skillbill](http://www.skillbill.it)
  - [Youtube](https://www.youtube.com/user/toto0castaldi)
  - [La musica che mi piace](https://play.google.com/music/playlist/AMaBXymaYhH9ojZaYPK7eupZD71F7vun-QvV5nRba-kpGthenwIsZTdXPHqqoqit_5paMyM8bIgq5SG816KM5yaDMxWSr3Ti3A==)
  - [I film che mi piacciono](https://www.themoviedb.org/u/toto.castaldi)
