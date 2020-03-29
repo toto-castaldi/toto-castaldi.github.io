@@ -28,9 +28,6 @@ url: "http://toto-castaldi.github.io" # the base hostname & protocol for your si
 # Build settings
 theme: minima
 
-disqus:
-  shortname: toto-castaldi
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
