@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Info
+permalink: /info/
 ---
 
 ![profile picture](https://www.gravatar.com/avatar/587e0522608a1a02c9cabdfca6d9f729?rating=PG&size=200&default=wavatar)
