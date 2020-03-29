@@ -10,11 +10,13 @@ Ciao a tutti,
 
 mi chiamo Antonio Castaldi.
 
-Ho 44 anni, sono un papà di due figli, vivo nella provincia di Milano, un ingegnere informatico, mi piace fare sport movimento e insegnare.
+Ho 44 anni, sono papà di due ragazzi e vivo nella provincia di Milano.
+Sono un ingegnere informatico.
+Mi piace insegnare fare sport e movimento.
 
 Lavoro nel campo dell'informatica dal 1998. Ho creato nel 2005 con i miei soci la software house [Skillbill srl](http://www.skillbill.it) che è anche l'azienda per cui lavoro. Tra i vari compiti che svolgo in azienda c'è la programmazione che è sempre stata una grande passione.
 
-Mi puoi contattare alla mail [toto.castaldi@gmail.com](mailto:toto.castaldi@gmail.com)
+Mi puoi contattare scrivendomi alla mail [toto.castaldi@gmail.com](mailto:toto.castaldi@gmail.com)
 
 ### Qualche link
 
