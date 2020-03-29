@@ -12,7 +12,7 @@ Offrirò gratuitamente un corso online interattivo di programmazione. Sarà ince
 
 Serve un computer collegato a Internet con installato [Visual Studio Code](https://code.visualstudio.com/)  (segui questo semplice [video](https://youtu.be/zGJfwqgrrl0) per installarlo).
 
-Il corso è aperto a tutti dai 12 anni in su.
+Il corso è aperto a tutti dai 12 a 18 anni .
 
 Raggiunta una classe di almeno tre partecipanti, partiremo.
 
