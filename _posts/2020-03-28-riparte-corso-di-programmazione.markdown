@@ -14,7 +14,9 @@ Serve un computer collegato a Internet con installato [Visual Studio Code](https
 
 Il corso è aperto a tutti dai 12 a 18 anni .
 
-Raggiunta una classe di almeno tre partecipanti, partiremo.
+Raggiunta una classe di almeno tre partecipanti, ci organizzeremo insieme per partire.
+
+Il numero delle lezioni e gli orari verranno decisi più avanti.
 
 Rispondetemi qui sotto per qualsiasi informazione.
  
