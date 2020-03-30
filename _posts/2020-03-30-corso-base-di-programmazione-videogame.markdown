@@ -23,7 +23,7 @@ Il numero delle lezioni e gli orari verranno decisi più avanti.
 ### Come contattarmi ?
 
 Rispondetemi qui sotto o mandatemi una email per qualsiasi informazione.
-Per conoscermi megli leggi [qui](/chi-sono).
+Per conoscermi meglio leggi [qui](/chi-sono).
 
 ### Perché lo faccio ?
 
