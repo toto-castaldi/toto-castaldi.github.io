@@ -27,7 +27,7 @@ Per conoscermi megli leggi [qui](/chi-sono).
 
 ### Perché lo faccio ?
 
-Ho già insegnato la programmazione ai ragazzi da (CoderDojo)[https://coderdojomilano.it/] e (MasterCoder)[https://www.mastercoder.com/]. L'idea di tornare a insegnare mi gira in testa da un po' di tempo.
+Ho già insegnato la programmazione ai ragazzi da [CoderDojo](https://coderdojomilano.it/) e [MasterCoder](https://www.mastercoder.com/). L'idea di tornare a insegnare mi gira in testa da un po' di tempo.
 
 In questo periodo di **lockdown** ho partecipato a qualche corso online e ed è stata una bella esperienza. Adesso mi sembra il momento buono per portare avanti questo progetto.
 
