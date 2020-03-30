@@ -1,20 +1,18 @@
 ---
 layout: page
-title: Info
-permalink: /info/
+title: Chi sono
+permalink: /chi-sono/
 ---
 
 ![profile picture](https://www.gravatar.com/avatar/587e0522608a1a02c9cabdfca6d9f729?rating=PG&size=200&default=wavatar)
 
-Ciao a tutti,
+Ciao e benvenut* !
 
-mi chiamo Antonio Castaldi.
+Sono Antonio, ingegnere informatico. Lavoro in questo campo dal 1998 e con i miei soci ho creato nel 2005 la software house [Skillbill srl](http://www.skillbill.it) che è anche l'azienda per cui lavoro. Mi occupo quotidianamente di programmazione che è una mia grande passione da sempre.
 
-Ho 44 anni, sono papà di due ragazzi e vivo nella provincia di Milano.
-Sono un ingegnere informatico.
-Mi piace insegnare fare sport e movimento.
+Ho 44 anni, sono papà di due ragazzi adorabili e vivo in provincia di Milano.
 
-Lavoro nel campo dell'informatica dal 1998. Ho creato nel 2005 con i miei soci la software house [Skillbill srl](http://www.skillbill.it) che è anche l'azienda per cui lavoro. Tra i vari compiti che svolgo in azienda c'è la programmazione che è sempre stata una grande passione.
+Mi piace : imparare cose nuove, andare dappertutto in bici e stare con i miei amic*.
 
 Mi puoi contattare scrivendomi alla mail [toto.castaldi@gmail.com](mailto:toto.castaldi@gmail.com)
 
@@ -24,11 +22,4 @@ Mi puoi contattare scrivendomi alla mail [toto.castaldi@gmail.com](mailto:toto.c
  - [Linkedin](http://www.linkedin.com/in/antoniocastaldi)
  - [Skillbill](http://www.skillbill.it)
  - [Youtube](https://www.youtube.com/user/toto0castaldi)
- - [La musica che mi piace](https://play.google.com/music/playlist/AMaBXymaYhH9ojZaYPK7eupZD71F7vun-QvV5nRba-kpGthenwIsZTdXPHqqoqit_5paMyM8bIgq5SG816KM5yaDMxWSr3Ti3A==)
- - [I film che mi piacciono](https://www.themoviedb.org/u/toto.castaldi)
- - [Amazon whish list](http://www.amazon.it/registry/wishlist/16E658MKB9QY3)
- - [Duolingo](https://www.duolingo.com/toto.casta)
- - [Gravatar](http://en.gravatar.com/toto7castaldi)
- - [Facebook](https://www.facebook.com/toto.castaldi)
  - [Public maven artifacts](https://search.maven.org/#search%7Cga%7C1%7Ccom.github.toto-castaldi)
- - [Endomondo](https://www.endomondo.com/profile/583001)
