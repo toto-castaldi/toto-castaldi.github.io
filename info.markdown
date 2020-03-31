@@ -22,4 +22,3 @@ Mi puoi contattare scrivendomi alla mail [toto.castaldi@gmail.com](mailto:toto.c
  - [Linkedin](http://www.linkedin.com/in/antoniocastaldi)
  - [Skillbill](http://www.skillbill.it)
  - [Youtube](https://www.youtube.com/user/toto0castaldi)
- - [Public maven artifacts](https://search.maven.org/#search%7Cga%7C1%7Ccom.github.toto-castaldi)
