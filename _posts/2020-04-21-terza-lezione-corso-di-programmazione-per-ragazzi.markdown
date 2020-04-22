@@ -7,6 +7,8 @@ tags: corso javascript js p5js videogame
 
 Martedì 21 aprile 2020 c'è stata la **terza** lezione del **corso online di programmazione** Javascript per ragazzi.
 
+![screenshot](/assets/images/miniatura-lezione-003.png)
+
 Gli argomenti trattati sono stati :
 
  - recap lezione precedente
