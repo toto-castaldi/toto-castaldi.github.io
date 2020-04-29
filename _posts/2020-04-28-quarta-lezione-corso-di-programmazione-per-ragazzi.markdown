@@ -12,7 +12,7 @@ Martedì 28 aprile 2020 c'è stata la **quarta** lezione del **corso online di p
 Gli argomenti trattati sono stati :
 
  - recap lezione precedente
- - if, the, else
+ - if, then, else
  - tipo True / False
  - libreria Math
  - p5js text
