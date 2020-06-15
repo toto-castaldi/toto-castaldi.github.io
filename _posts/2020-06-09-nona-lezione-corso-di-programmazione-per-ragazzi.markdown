@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ottava lezione corso base di programmazione per ragazzi"
+title:  "Nona lezione corso base di programmazione per ragazzi"
 date:   2020-06-09 19:00:00 +0100
 tags: corso javascript js p5js videogame
 ---
