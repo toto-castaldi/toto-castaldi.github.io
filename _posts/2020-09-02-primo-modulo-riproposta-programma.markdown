@@ -7,9 +7,9 @@ tags: corso javascript js p5js videogame
 
 Da aprile a giugno 2020 ho tenuto, per la prima online, un corso di programmazione. E' un corso gratuito sulla programmazione WEB di grafica e videogame trovi maggiori informazioni [qui](/2020/03/28/corso-base-di-programmazione-videogame.html).
 
-Ho deciso di riproporlo, sempre gratuito e con le stesse modalità. Se sei interessato contattami [qui](/chi-sono). Partiremo martedì 29 settembre.
+Ho deciso di riproporlo, sempre gratuito e con le stesse modalità. Se sei interessato contattami [qui](/chi-sono). Partiremo **martedì 29 settembre 2020**.
 
-Il corso dura **10** lezioni, in questa [playlist][https://www.youtube.com/playlist?list=PLg-JW6-YwE8DxSU5U0B89-QRtCPdFHW2W] puoi vedere i video di tutte le lezioni.
+Il corso dura **10** lezioni, in questa [playlist][https://www.youtube.com/playlist?list=PLg-JW6-YwE8DxSU5U0B89-QRtCPdFHW2W] puoi vedere i video di tutte le lezioni della precedente edizione.
 
 Il programma è questo :
 
