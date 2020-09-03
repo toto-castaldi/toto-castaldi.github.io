@@ -1,15 +1,17 @@
 ---
 layout: post
-title:  "Programma primo modulo corso base di programmazione per ragazzi"
+title:  "Primo modulo corso base di programmazione per ragazzi seconda edizione"
 date:   2020-09-02 19:00:00 +0100
 tags: corso javascript js p5js videogame
 ---
 
-Da aprile a giugno 2020 ho tenuto, per la prima online, un corso di programmazione. E' un corso gratuito sulla programmazione WEB di grafica e videogame trovi maggiori informazioni [qui](/2020/03/28/corso-base-di-programmazione-videogame.html).
+Da aprile a giugno 2020 ho tenuto, per la prima online, un corso di programmazione, è un corso gratuito sulla programmazione WEB di grafica e videogame trovi maggiori informazioni [qui](/2020/03/28/corso-base-di-programmazione-videogame.html).
 
-Ho deciso di riproporlo, sempre gratuito e con le stesse modalità. Se sei interessato contattami [qui](/chi-sono). Partiremo **martedì 29 settembre 2020**.
+Ho deciso di riproporlo ora, sempre gratuito e con le stesse modalità.
 
-Il corso dura **10** lezioni, in questa [playlist][https://www.youtube.com/playlist?list=PLg-JW6-YwE8DxSU5U0B89-QRtCPdFHW2W] puoi vedere i video di tutte le lezioni della precedente edizione.
+Partiremo **martedì 29 settembre 2020**.
+
+Il corso dura **10** lezioni, in questa [playlist](https://www.youtube.com/playlist?list=PLg-JW6-YwE8DxSU5U0B89-QRtCPdFHW2W) puoi vedere i video di tutte le lezioni della precedente edizione.
 
 Il programma è questo :
 
@@ -58,3 +60,6 @@ Il programma è questo :
 ### Decima Lezione
 - array bidimensionale
 - navigazione con ciclo doppio for
+
+
+Se sei interessato contattami [qui](/chi-sono).
