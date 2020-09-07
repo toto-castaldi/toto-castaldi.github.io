@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Corso base di programmazione videogame gratuito per ragazzi"
+title:  "Corso base di programmazione videogame gratuito per ragazz*"
 date:   2020-03-28 19:00:00 +0100
 tags: corso javascript js p5js videogame
 ---

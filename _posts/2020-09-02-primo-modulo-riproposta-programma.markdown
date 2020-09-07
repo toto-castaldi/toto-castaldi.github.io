@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Primo modulo corso base di programmazione per ragazzi seconda edizione"
+title:  "Primo modulo corso base di programmazione per ragazz* seconda edizione"
 date:   2020-09-02 19:00:00 +0100
 tags: corso javascript js p5js videogame
 ---
 
-Da aprile a giugno 2020 ho tenuto, per la prima online, un corso di programmazione, è un corso gratuito sulla programmazione WEB di grafica e videogame trovi maggiori informazioni [qui](/2020/03/28/corso-base-di-programmazione-videogame.html).
+Da aprile a giugno 2020 ho tenuto, per la prima online, un corso di programmazione. E' un corso gratuito sulla programmazione WEB di grafica e videogame trovi maggiori informazioni [qui](/2020/03/28/corso-base-di-programmazione-videogame.html).
 
 Ho deciso di riproporlo ora, sempre gratuito e con le stesse modalità.
 
