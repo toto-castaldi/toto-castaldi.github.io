@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Corso di programmazione videogame gratuito per ragazz*"
+title:  "Secondo modulo corso di programmazione videogame gratuito per ragazz*"
 date:   2020-10-02 11:00:00 +0200
 tags: corso javascript js phaser videogame
 ---
 Offro gratuitamente un **corso online interattivo sulla programmazione web** per grafica, animazioni e videogame. Useremo il linguaggio Javascript e l'engine [Phaser](https://phaser.io/).
+
 
 ### Cosa serve per partecipare ?
 
