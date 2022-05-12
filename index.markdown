@@ -3,13 +3,13 @@ layout: home
 title: toto castaldi
 ---
 
-![profile picture](https://www.gravatar.com/avatar/587e0522608a1a02c9cabdfca6d9f729?rating=PG&size=200&default=wavatar)
+![profile_picture](./assets/images/profile-05.jpg)
 
 Ciao,
 
-sono Antonio, ingegnere informatico. Lavoro in questo campo dal 1998 e con i miei soci ho creato nel 2005 la software house [Skillbill srl](http://www.skillbill.it) che è anche l'azienda per cui lavoro. Mi occupo quotidianamente di programmazione che è una mia grande passione da sempre.
+sono Antonio, ingegnere informatico. Lavoro in questo campo dal 1998 e con i miei soci ho creato nel 2005 la software house [Skillbill srl](https://www.skillbill.it) che è anche l'azienda per cui lavoro. Mi occupo quotidianamente di programmazione che è una mia grande passione da sempre.
 
-Ho 44 anni, sono papà di due ragazzi adorabili e vivo in provincia di Milano.
+Sono papà di due ragazzi adorabili e vivo in provincia di Milano.
 
 Mi piace : imparare cose nuove, andare dappertutto in bici e stare con i miei amic*.
 
