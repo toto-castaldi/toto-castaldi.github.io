@@ -3,7 +3,7 @@ layout: home
 title: toto castaldi
 ---
 
-![profile_picture](./assets/images/profile-05.jpg)
+![profile_picture](https://www.gravatar.com/avatar/587e0522608a1a02c9cabdfca6d9f729?rating=PG&size=300&default=wavatar)
 
 Ciao,
 
