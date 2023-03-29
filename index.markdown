@@ -7,7 +7,7 @@ title: toto castaldi
 
 Ciao,
 
-sono Antonio, ingegnere informatico. Lavoro in questo campo dal 1998 e con i miei soci ho creato nel 2005 la software house [Skillbill srl](https://www.skillbill.it) che è anche l'azienda per cui lavoro. Mi occupo quotidianamente di programmazione che è una mia grande passione da sempre.
+sono Antonio, ingegnere informatico. Lavoro in questo campo dal 1998 e con il mio socio ho creato nel 2005 la software house [Skillbill srl](https://www.skillbill.it). Mi occupo quotidianamente di ingegneria del software, di me e dei miei cari.
 
 Sono papà di due ragazzi adorabili e vivo in provincia di Milano.
 
