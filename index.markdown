@@ -1,22 +1,21 @@
 ---
 layout: home
-title: toto castaldi
+title: Toto
 ---
 
-![profile_picture](https://www.gravatar.com/avatar/587e0522608a1a02c9cabdfca6d9f729?rating=PG&size=300&default=wavatar)
+Mi chiamo Antonio Castaldi ma tutti mi chiamano *Toto*, fallo anche tu :)
 
-Ciao,
-
-sono Antonio, ingegnere informatico. Lavoro in questo campo dal 1998 e con il mio socio ho creato nel 2005 la software house [Skillbill srl](https://www.skillbill.it). Mi occupo quotidianamente di ingegneria del software, di me e dei miei cari.
-
-Sono papà di due ragazzi adorabili e vivo in provincia di Milano.
-
-Mi piace : imparare cose nuove, andare dappertutto in bici e stare con i miei amic*.
+Sono fatto di tante parti e ho voglia di curarle tutte. In questo momento mi affascina molto :
+* Comunicazione Non Violenta [CNV su Wikipedia](https://it.wikipedia.org/wiki/Comunicazione_nonviolenta)
+* Tantra
+* Cerchi di uomini
+* Making
 
 Mi puoi contattare scrivendomi alla mail [toto.castaldi@gmail.com](mailto:toto.castaldi@gmail.com)
 
 ### Qualche link
-
+ - [Facebook](https://www.facebook.com/toto.castaldi/)
+ - [Instagram](https://www.instagram.com/toto.castaldi/)
  - [Github](https://github.com/toto-castaldi)
  - [Linkedin](https://www.linkedin.com/in/antoniocastaldi)
  - [Skillbill](https://www.skillbill.it)
