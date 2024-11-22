@@ -20,5 +20,5 @@ Mi puoi contattare scrivendomi alla mail [toto.castaldi@gmail.com](mailto:toto.c
  - [Instagram](https://www.instagram.com/toto.castaldi/)
  - [Github](https://github.com/toto-castaldi)
  - [Linkedin](https://www.linkedin.com/in/antoniocastaldi)
- - [la mia società Skillbill srl](https://www.skillbill.it)
+ - [Skillbill](https://www.skillbill.it)
  - [Youtube](https://www.youtube.com/user/toto0castaldi)
