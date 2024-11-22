@@ -18,8 +18,6 @@ Credo di poter co-creare ambienti di lavoro dove le persone vogliono stare. Coll
 # Cerchi di uomini
 # Making
 
-Mi puoi contattare scrivendomi alla mail [toto.castaldi@gmail.com](mailto:toto.castaldi@gmail.com)
-
 ### Mi trovi qui
  - [Facebook](https://www.facebook.com/toto.castaldi/)
  - [Instagram](https://www.instagram.com/toto.castaldi/)
@@ -27,3 +25,7 @@ Mi puoi contattare scrivendomi alla mail [toto.castaldi@gmail.com](mailto:toto.c
  - [Linkedin](https://www.linkedin.com/in/antoniocastaldi)
  - [Skillbill](https://www.skillbill.it)
  - [Youtube](https://www.youtube.com/user/toto0castaldi)
+
+Mi puoi contattare scrivendomi alla mail [toto.castaldi@gmail.com](mailto:toto.castaldi@gmail.com)
+
+**scritto senza AI**
