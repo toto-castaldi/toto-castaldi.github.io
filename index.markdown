@@ -14,6 +14,11 @@ Credo di poter co-creare ambienti di lavoro dove le persone vogliono stare. Coll
 
 # Comunicazione Non Violenta
 # Tantra
+
+Studio Tantra da circa dieci anni. Ho seguito più maestre e fatto molti ritiri e giornate di pratiche.
+Nel 2024 ho iniziato ad assistere Kohra Bacherini e a creare con lei giornate di pratica.
+Per me il Tantra è pulizia e connessione con se stessi. Avere la possibilità di un ascolto fine di quello che succede nel proprio corpo.
+
 # Informatica
 # Cerchi di uomini
 # Making
