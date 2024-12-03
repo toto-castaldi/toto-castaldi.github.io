@@ -20,7 +20,6 @@ Nel 2024 ho iniziato ad assistere Kohra Bacherini e a creare con lei giornate di
 Per me il Tantra è pulizia e connessione con se stessi. Avere la possibilità di un ascolto fine di quello che succede nel proprio corpo.
 
 # Informatica
-# Cerchi di uomini
 # Making
 
 ### Mi trovi qui
