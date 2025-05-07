@@ -13,22 +13,17 @@ Prima da Freelance, poi in una società a nome collettivo ed infine da quasi ven
 Credo di poter co-creare ambienti di lavoro dove le persone vogliono stare. Collaborazione, trasparenza e attenzione sono i miei valori principali. 
 
 # Comunicazione Non Violenta
-# Tantra
 
-Studio Tantra da circa dieci anni. Ho seguito più maestre e fatto molti ritiri e giornate di pratiche.
-Nel 2024 ho iniziato ad assistere Kohra Bacherini e a creare con lei giornate di pratica.
-Per me il Tantra è pulizia e connessione con se stessi. Avere la possibilità di un ascolto fine di quello che succede nel proprio corpo.
+La Comunicazione Nonviolenta di Marshall Rosenberg mette al centro emozioni e bisogni. L'ho studiata a più riprese e trovo che sia uno strumento eccezionale per connettermi a me stesso e agli altri. La uso quotidianamente.
 
 # Informatica
+
+Mi piace tenermi aggiornato su algoritimi, linguaggi, architetture e soluzioni. Lo faccio sia per passione che per lavoro.
+
 # Making
 
-### Mi trovi qui
- - [Facebook](https://www.facebook.com/toto.castaldi/)
- - [Instagram](https://www.instagram.com/toto.castaldi/)
- - [Github](https://github.com/toto-castaldi)
- - [Linkedin](https://www.linkedin.com/in/antoniocastaldi)
- - [Skillbill](https://www.skillbill.it)
- - [Youtube](https://www.youtube.com/user/toto0castaldi)
+Smanetto con elettronica, informatica e stampa 3D. 
+
 
 Mi puoi contattare scrivendomi alla mail [toto.castaldi@gmail.com](mailto:toto.castaldi@gmail.com)
 
