@@ -5,7 +5,7 @@ title: Toto
 
 Mi chiamo Antonio Castaldi ma tutti mi chiamano *Toto*, fallo anche tu :)
 
-Sono fatto di tante parti e ho voglia di curarle tutte. In questo momento mi affascina molto :
+Ecco qualche parte di me :
 
 # Imprenditoria
 
@@ -24,7 +24,14 @@ Mi piace tenermi aggiornato su algoritimi, linguaggi, architetture e soluzioni. 
 
 Smanetto con elettronica, informatica e stampa 3D. 
 
+# Fitness
+
+Mi alleno con costanza e impegno da molti anni. Mi fa stare bene, è uno dei motivi per cui mi sveglio ogni giorno.
+
+_______________________________
 
 Mi puoi contattare scrivendomi alla mail [toto.castaldi@gmail.com](mailto:toto.castaldi@gmail.com)
+
+_______________________________
 
 **scritto senza AI**
