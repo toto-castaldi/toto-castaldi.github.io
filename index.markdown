@@ -9,7 +9,7 @@ Ecco qualche parte di me :
 
 # Imprenditoria
 
-Prima da Freelance, poi in una società a nome collettivo ed infine da quasi vent'anni fondatore e manager di Skillbill srl.
+Prima da Freelance, poi in una società a nome collettivo ed infine da quasi vent'anni fondatore e manager di [Skillbill srl](https://www.skillbill.it/).
 Credo di poter co-creare ambienti di lavoro dove le persone vogliono stare. Collaborazione, trasparenza e attenzione sono i miei valori principali. 
 
 # Comunicazione Non Violenta
@@ -19,10 +19,11 @@ La Comunicazione Nonviolenta di Marshall Rosenberg mette al centro emozioni e bi
 # Informatica
 
 Mi piace tenermi aggiornato su algoritimi, linguaggi, architetture e soluzioni. Lo faccio sia per passione che per lavoro.
+Uno dei miei repo di pratica sugli esercizi del sito [Advent Of Code](https://github.com/toto-castaldi/advent-of-code).
 
 # Making
 
-Smanetto con elettronica, informatica e stampa 3D. 
+Smanetto con elettronica, informatica e stampa 3D. [TIG](https://tindependentg.com/) è il progetto che sviluppo di più.
 
 # Fitness
 
