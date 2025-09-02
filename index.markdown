@@ -19,7 +19,7 @@ La Comunicazione Nonviolenta di Marshall Rosenberg mette al centro emozioni e bi
 # Informatica
 
 Mi piace tenermi aggiornato su algoritimi, linguaggi, architetture e soluzioni. Lo faccio sia per passione che per lavoro.
-Uno dei miei repo di pratica sugli esercizi del sito [Advent Of Code](https://github.com/toto-castaldi/advent-of-code).
+[Questo](https://github.com/toto-castaldi/advent-of-code) è uno dei miei repo di pratica basato sugli esercizi del sito Advent Of Code.
 
 # Making
 
