@@ -59,29 +59,29 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| DARK-01 | - | Pending |
-| DARK-02 | - | Pending |
-| DARK-03 | - | Pending |
-| DARK-04 | - | Pending |
-| DARK-05 | - | Pending |
-| I18N-01 | - | Pending |
-| I18N-02 | - | Pending |
-| I18N-03 | - | Pending |
-| I18N-04 | - | Pending |
-| I18N-05 | - | Pending |
-| SEO-01 | - | Pending |
-| SEO-02 | - | Pending |
-| SEO-03 | - | Pending |
-| PERF-01 | - | Pending |
-| PERF-02 | - | Pending |
-| PERF-03 | - | Pending |
-| PERF-04 | - | Pending |
+| DARK-01 | Phase 4 | Pending |
+| DARK-02 | Phase 4 | Pending |
+| DARK-03 | Phase 4 | Pending |
+| DARK-04 | Phase 4 | Pending |
+| DARK-05 | Phase 4 | Pending |
+| I18N-01 | Phase 3 | Pending |
+| I18N-02 | Phase 3 | Pending |
+| I18N-03 | Phase 5 | Pending |
+| I18N-04 | Phase 5 | Pending |
+| I18N-05 | Phase 5 | Pending |
+| SEO-01 | Phase 5 | Pending |
+| SEO-02 | Phase 5 | Pending |
+| SEO-03 | Phase 5 | Pending |
+| PERF-01 | Phase 6 | Pending |
+| PERF-02 | Phase 6 | Pending |
+| PERF-03 | Phase 6 | Pending |
+| PERF-04 | Phase 6 | Pending |
 
 **Coverage:**
 - v2 requirements: 17 total
-- Mapped to phases: 0
-- Unmapped: 17
+- Mapped to phases: 17
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-19*
-*Last updated: 2026-02-19 after initial definition*
+*Last updated: 2026-02-19 after roadmap creation*
