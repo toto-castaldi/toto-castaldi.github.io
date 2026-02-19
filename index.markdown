@@ -25,6 +25,7 @@ Lavoro com Personal Trainer e come istruttore di Pilates in due palestre dell'in
 # Comunicazione Non Violenta
 
 La Comunicazione Nonviolenta di Marshall Rosenberg mette al centro emozioni e bisogni. L'ho studiata a più riprese e trovo che sia uno strumento eccezionale per connettermi a me stesso e agli altri. La uso quotidianamente.
+
 _______________________________
 
 Mi puoi contattare scrivendomi alla mail [toto.castaldi@gmail.com](mailto:toto.castaldi@gmail.com)
