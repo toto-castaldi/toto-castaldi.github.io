@@ -5,15 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-02-19)
 
 **Core value:** La pagina personale di Toto deve essere visibile e aggiornata su https://toto-castaldi.github.io/ con un stack moderno e manutenibile.
-**Current focus:** v1.0 complete — planning next milestone
+**Current focus:** v2.0 Enhancement & i18n — defining requirements
 
 ## Current Position
 
-Milestone: v1.0 Tech Rebuild — SHIPPED 2026-02-19
-Status: Milestone complete, ready for next milestone
-Last activity: 2026-02-19 — Completed v1.0 milestone (2 phases, 2 plans, 18 requirements)
+Phase: Not started (defining requirements)
+Plan: —
+Status: Defining requirements
+Last activity: 2026-02-19 — Milestone v2.0 started
 
-Progress: [██████████] 100%
+Progress: [░░░░░░░░░░] 0%
 
 ## Performance Metrics
 
@@ -48,5 +49,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-02-19
-Stopped at: Completed v1.0 milestone
+Stopped at: Starting v2.0 milestone
 Resume file: None
