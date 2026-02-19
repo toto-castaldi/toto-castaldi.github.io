@@ -26,7 +26,7 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. https://toto-castaldi.github.io/ serves an Astro-generated HTML page (not Jekyll output)
   3. No Jekyll files exist in the repo (Gemfile, _layouts/, _includes/, _sass/, jekyll.yml are gone)
   4. package-lock.json is present and committed alongside the workflow file
-**Plans:** 1 plan
+**Plans:** 1/1 plans complete
 Plans:
 - [x] 01-01-PLAN.md — Scaffold Astro, remove Jekyll, configure CI/CD deploy workflow
 
@@ -49,5 +49,5 @@ Phases execute in numeric order: 1 → 2
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Scaffold e CI/CD | 1/1 | Complete | 2026-02-19 |
+| 1. Scaffold e CI/CD | 1/1 | Complete    | 2026-02-19 |
 | 2. Contenuto, Design e Metadata | 0/TBD | Not started | - |
