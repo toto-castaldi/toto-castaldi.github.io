@@ -40,7 +40,9 @@ Plans:
   3. External links (Skillbill, GitHub, toto-castaldi.com) open in a new tab without security warnings
   4. The page renders correctly on a mobile viewport and on desktop without horizontal scrolling
   5. Sharing the URL on social media shows a title, description, and Open Graph preview
-**Plans**: TBD
+**Plans:** 1 plan
+Plans:
+- [ ] 02-01-PLAN.md — Layout, design system, content migration, metadata, and favicon
 
 ## Progress
 
@@ -50,4 +52,4 @@ Phases execute in numeric order: 1 → 2
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Scaffold e CI/CD | 1/1 | Complete    | 2026-02-19 |
-| 2. Contenuto, Design e Metadata | 0/TBD | Not started | - |
+| 2. Contenuto, Design e Metadata | 0/1 | Not started | - |
