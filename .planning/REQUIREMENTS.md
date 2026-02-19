@@ -7,12 +7,12 @@
 
 ### Infrastructure
 
-- [ ] **INFRA-01**: Progetto Astro 5.x inizializzato con `output: 'static'`
-- [ ] **INFRA-02**: GitHub Actions workflow con `withastro/action@v5` per deploy automatico su push a master
-- [ ] **INFRA-03**: GitHub Pages source impostato su "GitHub Actions" (non "Deploy from branch")
-- [ ] **INFRA-04**: `site: 'https://toto-castaldi.github.io'` in `astro.config.mjs` (HTTPS, no `base`)
-- [ ] **INFRA-05**: Lockfile (`package-lock.json`) committato nel repo
-- [ ] **INFRA-06**: Rimozione completa di Jekyll (`Gemfile`, `Gemfile.lock`, `_layouts/`, `_includes/`, `_sass/`, `jekyll.yml`)
+- [x] **INFRA-01**: Progetto Astro 5.x inizializzato con `output: 'static'`
+- [x] **INFRA-02**: GitHub Actions workflow con `withastro/action@v5` per deploy automatico su push a master
+- [x] **INFRA-03**: GitHub Pages source impostato su "GitHub Actions" (non "Deploy from branch")
+- [x] **INFRA-04**: `site: 'https://toto-castaldi.github.io'` in `astro.config.mjs` (HTTPS, no `base`)
+- [x] **INFRA-05**: Lockfile (`package-lock.json`) committato nel repo
+- [x] **INFRA-06**: Rimozione completa di Jekyll (`Gemfile`, `Gemfile.lock`, `_layouts/`, `_includes/`, `_sass/`, `jekyll.yml`)
 
 ### Content
 
@@ -62,12 +62,12 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| INFRA-01 | Phase 1 | Pending |
-| INFRA-02 | Phase 1 | Pending |
-| INFRA-03 | Phase 1 | Pending |
-| INFRA-04 | Phase 1 | Pending |
-| INFRA-05 | Phase 1 | Pending |
-| INFRA-06 | Phase 1 | Pending |
+| INFRA-01 | Phase 1 | Complete |
+| INFRA-02 | Phase 1 | Complete |
+| INFRA-03 | Phase 1 | Complete |
+| INFRA-04 | Phase 1 | Complete |
+| INFRA-05 | Phase 1 | Complete |
+| INFRA-06 | Phase 1 | Complete |
 | CONT-01 | Phase 2 | Pending |
 | CONT-02 | Phase 2 | Pending |
 | CONT-03 | Phase 2 | Pending |
@@ -88,4 +88,4 @@
 
 ---
 *Requirements defined: 2026-02-19*
-*Last updated: 2026-02-19 after initial definition*
+*Last updated: 2026-02-19 after Phase 1 completion (INFRA-01 through INFRA-06 complete)*

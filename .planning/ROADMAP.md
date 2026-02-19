@@ -12,7 +12,7 @@ Rebuild tecnologico della landing page personale: si sostituisce Jekyll con Astr
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Scaffold e CI/CD** - Astro inizializzato, Jekyll rimosso, deploy automatico verificato su GitHub Pages
+- [x] **Phase 1: Scaffold e CI/CD** - Astro inizializzato, Jekyll rimosso, deploy automatico verificato su GitHub Pages
 - [ ] **Phase 2: Contenuto, Design e Metadata** - Contenuto migrato, layout responsive, tipografia, SEO/meta completi
 
 ## Phase Details
@@ -28,7 +28,7 @@ Decimal phases appear between their surrounding integers in numeric order.
   4. package-lock.json is present and committed alongside the workflow file
 **Plans:** 1 plan
 Plans:
-- [ ] 01-01-PLAN.md — Scaffold Astro, remove Jekyll, configure CI/CD deploy workflow
+- [x] 01-01-PLAN.md — Scaffold Astro, remove Jekyll, configure CI/CD deploy workflow
 
 ### Phase 2: Contenuto, Design e Metadata
 **Goal**: La landing page mostra tutto il contenuto attuale con design minimale migliorato, link funzionanti, e metadata completi per SEO e social sharing
@@ -49,5 +49,5 @@ Phases execute in numeric order: 1 → 2
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Scaffold e CI/CD | 0/1 | Not started | - |
+| 1. Scaffold e CI/CD | 1/1 | Complete | 2026-02-19 |
 | 2. Contenuto, Design e Metadata | 0/TBD | Not started | - |
