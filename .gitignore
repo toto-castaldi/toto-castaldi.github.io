@@ -1,5 +1,21 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+# Astro build output
+dist/
+
+# Dependencies
+node_modules/
+
+# Astro cache
+.astro/
+
+# Environment variables
+.env
+.env.*
+
+# Editor
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
