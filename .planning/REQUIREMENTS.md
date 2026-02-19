@@ -16,24 +16,24 @@
 
 ### Content
 
-- [ ] **CONT-01**: Contenuto markdown delle 4 sezioni (Imprenditoria, Informatica, Fitness, CNV) renderizzato identico all'attuale
-- [ ] **CONT-02**: Link email di contatto funzionante (`mailto:toto.castaldi@gmail.com`)
-- [ ] **CONT-03**: Link esterni funzionanti (Skillbill, GitHub, toto-castaldi.com) con `target="_blank" rel="noopener noreferrer"`
-- [ ] **CONT-04**: Nota "scritto senza AI" mantenuta
+- [x] **CONT-01**: Contenuto markdown delle 4 sezioni (Imprenditoria, Informatica, Fitness, CNV) renderizzato identico all'attuale
+- [x] **CONT-02**: Link email di contatto funzionante (`mailto:toto.castaldi@gmail.com`)
+- [x] **CONT-03**: Link esterni funzionanti (Skillbill, GitHub, toto-castaldi.com) con `target="_blank" rel="noopener noreferrer"`
+- [x] **CONT-04**: Nota "scritto senza AI" mantenuta
 
 ### Design
 
-- [ ] **DSGN-01**: Layout responsive (mobile + desktop) con CSS, zero JS
-- [ ] **DSGN-02**: Tipografia migliorata (font sizing, line-height, spacing) rispetto a Minima default
-- [ ] **DSGN-03**: Design minimale bianco
-- [ ] **DSGN-04**: HTML semantico (h1 per nome, h2 per sezioni, section tags)
+- [x] **DSGN-01**: Layout responsive (mobile + desktop) con CSS, zero JS
+- [x] **DSGN-02**: Tipografia migliorata (font sizing, line-height, spacing) rispetto a Minima default
+- [x] **DSGN-03**: Design minimale bianco
+- [x] **DSGN-04**: HTML semantico (h1 per nome, h2 per sezioni, section tags)
 
 ### SEO/Meta
 
-- [ ] **META-01**: `<title>Antonio Castaldi</title>` e `<meta charset="utf-8">` nel `<head>`
-- [ ] **META-02**: Meta viewport per mobile (`<meta name="viewport" content="width=device-width, initial-scale=1">`)
-- [ ] **META-03**: Open Graph tags (og:title, og:description, og:type)
-- [ ] **META-04**: Favicon (semplice, 32x32 o 48x48)
+- [x] **META-01**: `<title>Antonio Castaldi</title>` e `<meta charset="utf-8">` nel `<head>`
+- [x] **META-02**: Meta viewport per mobile (`<meta name="viewport" content="width=device-width, initial-scale=1">`)
+- [x] **META-03**: Open Graph tags (og:title, og:description, og:type)
+- [x] **META-04**: Favicon (semplice, 32x32 o 48x48)
 
 ## v2 Requirements
 
@@ -68,18 +68,18 @@
 | INFRA-04 | Phase 1 | Complete |
 | INFRA-05 | Phase 1 | Complete |
 | INFRA-06 | Phase 1 | Complete |
-| CONT-01 | Phase 2 | Pending |
-| CONT-02 | Phase 2 | Pending |
-| CONT-03 | Phase 2 | Pending |
-| CONT-04 | Phase 2 | Pending |
-| DSGN-01 | Phase 2 | Pending |
-| DSGN-02 | Phase 2 | Pending |
-| DSGN-03 | Phase 2 | Pending |
-| DSGN-04 | Phase 2 | Pending |
-| META-01 | Phase 2 | Pending |
-| META-02 | Phase 2 | Pending |
-| META-03 | Phase 2 | Pending |
-| META-04 | Phase 2 | Pending |
+| CONT-01 | Phase 2 | Complete |
+| CONT-02 | Phase 2 | Complete |
+| CONT-03 | Phase 2 | Complete |
+| CONT-04 | Phase 2 | Complete |
+| DSGN-01 | Phase 2 | Complete |
+| DSGN-02 | Phase 2 | Complete |
+| DSGN-03 | Phase 2 | Complete |
+| DSGN-04 | Phase 2 | Complete |
+| META-01 | Phase 2 | Complete |
+| META-02 | Phase 2 | Complete |
+| META-03 | Phase 2 | Complete |
+| META-04 | Phase 2 | Complete |
 
 **Coverage:**
 - v1 requirements: 18 total
