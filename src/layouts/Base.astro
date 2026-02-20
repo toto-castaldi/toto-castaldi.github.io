@@ -8,6 +8,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 import '../styles/global.css';
 import { getLangFromUrl } from '../i18n/utils';
+import ThemeToggle from '../components/ThemeToggle.astro';
 
 const lang = getLangFromUrl(Astro.url);
 ---
@@ -39,6 +40,7 @@ const lang = getLangFromUrl(Astro.url);
     <meta property="og:url" content={canonicalURL} />
   </head>
   <body>
+    <ThemeToggle />
     <slot />
   </body>
 </html>
