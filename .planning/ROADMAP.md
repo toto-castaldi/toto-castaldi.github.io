@@ -63,10 +63,11 @@ Plans:
   3. Clicking a section anchor link (e.g., #imprenditoria) scrolls smoothly to the correct section with the link visible in the URL bar
   4. A language switcher link is visible on every page and navigates between IT and EN versions
   5. Viewing page source shows hreflang tags for both locales including self-references and x-default
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 05-01: TBD
+- [ ] 05-01-PLAN.md — SEO head metadata: hreflang tags, Person JSON-LD, og:image, og:locale, Twitter Cards, smooth scroll CSS
+- [ ] 05-02-PLAN.md — Language switcher link with localStorage sync, full phase verification
 
 ### Phase 6: Lighthouse Audit
 **Goal**: Both locale pages in both themes score 95+ across all four Lighthouse categories
@@ -92,5 +93,5 @@ Plans:
 | 2. Contenuto, Design e Metadata | v1.0 | 1/1 | Complete | 2026-02-19 |
 | 3. Foundation & i18n Content | v2.0 | 2/2 | Complete | 2026-02-20 |
 | 4. Dark Mode | v2.0 | 1/1 | Complete | 2026-02-20 |
-| 5. SEO & Metadata | v2.0 | 0/? | Not started | - |
+| 5. SEO & Metadata | v2.0 | 0/2 | Not started | - |
 | 6. Lighthouse Audit | v2.0 | 0/? | Not started | - |
