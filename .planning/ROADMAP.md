@@ -48,10 +48,10 @@ Plans:
   2. A first-time visitor with OS dark mode enabled sees the dark theme without any white flash
   3. User switches to dark mode, closes the browser, reopens the page -- dark mode is still active
   4. All text in dark mode passes WCAG AA contrast ratio (4.5:1 for body text, 3:1 for large text)
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 04-01: TBD
+- [ ] 04-01-PLAN.md — Dark CSS variables, FOUC-preventing head script, ThemeToggle component, end-to-end verification
 
 ### Phase 5: SEO & Metadata
 **Goal**: Both language pages have complete structured data, social sharing previews, navigable section links, cross-language references, and a visible language switcher
@@ -91,6 +91,6 @@ Plans:
 | 1. Scaffold e CI/CD | v1.0 | 1/1 | Complete | 2026-02-19 |
 | 2. Contenuto, Design e Metadata | v1.0 | 1/1 | Complete | 2026-02-19 |
 | 3. Foundation & i18n Content | v2.0 | 2/2 | Complete | 2026-02-20 |
-| 4. Dark Mode | v2.0 | 0/? | Not started | - |
+| 4. Dark Mode | v2.0 | 0/1 | Planned | - |
 | 5. SEO & Metadata | v2.0 | 0/? | Not started | - |
 | 6. Lighthouse Audit | v2.0 | 0/? | Not started | - |
