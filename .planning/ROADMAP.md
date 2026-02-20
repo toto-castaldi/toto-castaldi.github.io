@@ -78,10 +78,10 @@ Plans:
   2. Lighthouse Accessibility score >= 95 on both / and /en/
   3. Lighthouse Best Practices score >= 95 on both / and /en/
   4. Lighthouse SEO score >= 95 on both / and /en/
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 06-01: TBD
+- [ ] 06-01-PLAN.md — Fix non-descriptive link text and verify Lighthouse scores >= 95
 
 ## Progress
 
@@ -94,4 +94,4 @@ Plans:
 | 3. Foundation & i18n Content | v2.0 | 2/2 | Complete | 2026-02-20 |
 | 4. Dark Mode | v2.0 | 1/1 | Complete | 2026-02-20 |
 | 5. SEO & Metadata | v2.0 | Complete    | 2026-02-20 | 2026-02-20 |
-| 6. Lighthouse Audit | v2.0 | 0/? | Not started | - |
+| 6. Lighthouse Audit | v2.0 | 0/1 | Not started | - |
