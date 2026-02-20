@@ -17,3 +17,21 @@
 
 ---
 
+
+## v2.0 Enhancement & i18n (Shipped: 2026-02-20)
+
+**Phases completed:** 4 phases, 6 plans, 12 tasks
+
+**Key accomplishments:**
+- Bilingual IT/EN landing page with Astro i18n routing, translation dictionary, and browser language detection
+- Dark mode with system preference detection, localStorage persistence, FOUC prevention, and WCAG AA contrast
+- Complete SEO metadata: Person JSON-LD, hreflang tags, og:image, Twitter Cards, smooth scroll anchor links
+- Language switcher with localStorage sync to prevent redirect bounce
+- All CSS colors extracted to custom properties for theming
+- Lighthouse 100/100/100/100 across Performance, Accessibility, Best Practices, and SEO
+
+**Stats:** 30 files changed, 3,567 insertions, ~497 LOC (Astro/TS/CSS), 1 day execution
+**Git range:** feat(03-01) → docs(06-01)
+
+---
+
