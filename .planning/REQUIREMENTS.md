@@ -18,7 +18,7 @@
 - [x] **I18N-01**: English translation of all content available at /en/ path
 - [x] **I18N-02**: Italian content remains at root / (default locale, no prefix)
 - [x] **I18N-03**: hreflang tags on all pages (including self-references)
-- [ ] **I18N-04**: Language switcher link visible on all pages
+- [x] **I18N-04**: Language switcher link visible on all pages
 - [x] **I18N-05**: OG metadata (title, description) translated per language
 
 ### SEO & Metadata
@@ -67,7 +67,7 @@
 | I18N-01 | Phase 3 | Complete |
 | I18N-02 | Phase 3 | Complete |
 | I18N-03 | Phase 5 | Complete |
-| I18N-04 | Phase 5 | Pending |
+| I18N-04 | Phase 5 | Complete |
 | I18N-05 | Phase 5 | Complete |
 | SEO-01 | Phase 5 | Complete |
 | SEO-02 | Phase 5 | Complete |

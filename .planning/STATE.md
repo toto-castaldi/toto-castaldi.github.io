@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-19)
 
 **Core value:** La pagina personale di Toto deve essere visibile e aggiornata su https://toto-castaldi.github.io/ con un stack moderno e manutenibile.
-**Current focus:** v2.0 Enhancement & i18n -- Phase 5: SEO & Metadata (in progress)
+**Current focus:** v2.0 Enhancement & i18n -- Phase 5: SEO & Metadata (complete), ready for Phase 6
 
 ## Current Position
 
-Phase: 5 of 6 (SEO & Metadata)
-Plan: 1 of 2 in current phase (complete)
-Status: Plan 05-01 complete, ready for 05-02
-Last activity: 2026-02-20 -- Completed 05-01 (hreflang, JSON-LD, og:image, og:locale, Twitter Cards, smooth scroll)
+Phase: 5 of 6 (SEO & Metadata) -- COMPLETE
+Plan: 2 of 2 in current phase (complete)
+Status: Phase 5 complete, ready for Phase 6 (Lighthouse Audit)
+Last activity: 2026-02-20 -- Completed 05-02 (language switcher with localStorage sync)
 
-Progress: [█████████████████░░░] 85% (v1.0 complete; phases 3-5 in progress)
+Progress: [██████████████████░░] 90% (v1.0 complete; phases 3-5 complete, phase 6 remaining)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 6 (2 v1.0 + 4 v2.0)
-- Average duration: ~8min
-- Total execution time: ~0.7 hours
+- Total plans completed: 7 (2 v1.0 + 5 v2.0)
+- Average duration: ~7min
+- Total execution time: ~0.75 hours
 
 **By Phase:**
 
@@ -31,10 +31,11 @@ Progress: [█████████████████░░░] 85% (v1
 | 02-contenuto-design-e-metadata | 1/1 | ~2min | ~2min |
 | 03-foundation-i18n-content | 2/2 | ~7min | ~3.5min |
 | 04-dark-mode | 1/1 | ~5min | ~5min |
-| 05-seo-metadata | 1/2 | ~2min | ~2min |
+| 05-seo-metadata | 2/2 | ~5min | ~2.5min |
 
 *Updated after each plan completion*
 | Phase 05 P01 | 2min | 2 tasks | 4 files |
+| Phase 05 P02 | 3min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -59,6 +60,9 @@ Recent decisions affecting current work:
 - 05-01: og:locale values stored as i18n translation keys for consistency with existing pattern
 - [Phase 05]: Static PNG og:image generated with Python PIL (minimalist white bg, dark text branding)
 - [Phase 05]: og:locale values stored as i18n translation keys for consistency with existing pattern
+- [Phase 05]: 05-02: Language switcher top-left fixed position mirroring theme toggle at top-right for balanced layout
+- [Phase 05]: 05-02: Simple <a> element for lang switcher (not dropdown) since only two locales exist
+- [Phase 05]: 05-02: onclick sets localStorage before navigation to prevent auto-redirect bounce
 
 ### Pending Todos
 
@@ -71,5 +75,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 05-01-PLAN.md
-Resume file: .planning/phases/05-seo-metadata/05-01-SUMMARY.md
+Stopped at: Completed 05-02-PLAN.md (Phase 5 complete)
+Resume file: .planning/phases/05-seo-metadata/05-02-SUMMARY.md
