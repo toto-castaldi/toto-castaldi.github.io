@@ -34,6 +34,16 @@ body {
   --content-padding: clamp(1rem, 5vw, 3rem);
 }
 
+/* Dark theme override — all pairs verified >= WCAG AA */
+[data-theme="dark"] {
+  --color-bg: #121212;
+  --color-text: #e0e0e0;
+  --color-text-secondary: #a0a0a0;
+  --color-link: #6db3f2;
+  --color-link-hover: #90caf9;
+  --color-border: #333333;
+}
+
 /* === Base Typography === */
 html {
   font-family: var(--font-family);
