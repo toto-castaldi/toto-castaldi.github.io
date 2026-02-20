@@ -22,7 +22,7 @@ export const ui = {
     'section.cs.p1':
       'Mi piace tenermi aggiornato su algoritimi, linguaggi, architetture e soluzioni. Lo faccio sia per passione che per lavoro.',
     'section.cs.p2':
-      '<a href="https://github.com/toto-castaldi" target="_blank" rel="noopener noreferrer">Qui</a> i miei repo e <a href="https://toto-castaldi.com" target="_blank" rel="noopener noreferrer">Qui</a> dei progetti che ho creato.',
+      'I miei <a href="https://github.com/toto-castaldi" target="_blank" rel="noopener noreferrer">repository GitHub</a> e i <a href="https://toto-castaldi.com" target="_blank" rel="noopener noreferrer">progetti che ho creato</a>.',
     'section.fitness.title': 'Fitness',
     'section.fitness.p1':
       'Mi alleno con costanza e impegno da molti anni. Mi fa stare bene, è uno dei motivi per cui mi sveglio ogni giorno.',
@@ -51,7 +51,7 @@ export const ui = {
     'section.cs.p1':
       'I enjoy staying up to date on algorithms, languages, architectures, and solutions. I do it both out of passion and for work.',
     'section.cs.p2':
-      '<a href="https://github.com/toto-castaldi" target="_blank" rel="noopener noreferrer">Here</a> are my repos and <a href="https://toto-castaldi.com" target="_blank" rel="noopener noreferrer">here</a> are some projects I have created.',
+      'My <a href="https://github.com/toto-castaldi" target="_blank" rel="noopener noreferrer">GitHub repositories</a> and some <a href="https://toto-castaldi.com" target="_blank" rel="noopener noreferrer">projects I have created</a>.',
     'section.fitness.title': 'Fitness',
     'section.fitness.p1':
       'I have been training consistently and with dedication for many years. It makes me feel good and is one of the reasons I wake up every day.',
