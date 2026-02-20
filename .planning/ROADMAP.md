@@ -94,4 +94,4 @@ Plans:
 | 3. Foundation & i18n Content | v2.0 | 2/2 | Complete | 2026-02-20 |
 | 4. Dark Mode | v2.0 | 1/1 | Complete | 2026-02-20 |
 | 5. SEO & Metadata | v2.0 | Complete    | 2026-02-20 | 2026-02-20 |
-| 6. Lighthouse Audit | v2.0 | 1/1 | Complete | 2026-02-20 |
+| 6. Lighthouse Audit | v2.0 | Complete    | 2026-02-20 | 2026-02-20 |
