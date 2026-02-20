@@ -7,11 +7,11 @@
 
 ### Dark Mode
 
-- [ ] **DARK-01**: Toggle button switches between light and dark themes
-- [ ] **DARK-02**: Dark mode respects prefers-color-scheme system preference as default
-- [ ] **DARK-03**: Theme preference persists across page loads via localStorage
-- [ ] **DARK-04**: No flash of unstyled content (FOUC) on page load
-- [ ] **DARK-05**: Dark theme meets WCAG AA contrast ratios
+- [x] **DARK-01**: Toggle button switches between light and dark themes
+- [x] **DARK-02**: Dark mode respects prefers-color-scheme system preference as default
+- [x] **DARK-03**: Theme preference persists across page loads via localStorage
+- [x] **DARK-04**: No flash of unstyled content (FOUC) on page load
+- [x] **DARK-05**: Dark theme meets WCAG AA contrast ratios
 
 ### Internationalization
 
@@ -59,11 +59,11 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| DARK-01 | Phase 4 | Pending |
-| DARK-02 | Phase 4 | Pending |
-| DARK-03 | Phase 4 | Pending |
-| DARK-04 | Phase 4 | Pending |
-| DARK-05 | Phase 4 | Pending |
+| DARK-01 | Phase 4 | Complete |
+| DARK-02 | Phase 4 | Complete |
+| DARK-03 | Phase 4 | Complete |
+| DARK-04 | Phase 4 | Complete |
+| DARK-05 | Phase 4 | Complete |
 | I18N-01 | Phase 3 | Complete |
 | I18N-02 | Phase 3 | Complete |
 | I18N-03 | Phase 5 | Pending |
