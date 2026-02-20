@@ -19,7 +19,7 @@
 
 - [x] **Phase 3: Foundation & i18n Content** - CSS variable refactor, Astro i18n config, EN page with translations
 - [x] **Phase 4: Dark Mode** - Theme toggle, system preference, FOUC prevention, accessible contrast (completed 2026-02-20)
-- [ ] **Phase 5: SEO & Metadata** - Schema.org JSON-LD, og:image, anchor links, hreflang, language switcher, translated meta
+- [ ] **Phase 5: SEO & Metadata** - Schema.org JSON-LD, og:image, anchor links, hreflang, language switcher, translated meta (1/2 plans)
 - [ ] **Phase 6: Lighthouse Audit** - Validate all four Lighthouse scores >= 95 on both locales and both themes
 
 ## Phase Details
@@ -66,7 +66,7 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 05-01-PLAN.md — SEO head metadata: hreflang tags, Person JSON-LD, og:image, og:locale, Twitter Cards, smooth scroll CSS
+- [x] 05-01-PLAN.md — SEO head metadata: hreflang tags, Person JSON-LD, og:image, og:locale, Twitter Cards, smooth scroll CSS
 - [ ] 05-02-PLAN.md — Language switcher link with localStorage sync, full phase verification
 
 ### Phase 6: Lighthouse Audit
@@ -93,5 +93,5 @@ Plans:
 | 2. Contenuto, Design e Metadata | v1.0 | 1/1 | Complete | 2026-02-19 |
 | 3. Foundation & i18n Content | v2.0 | 2/2 | Complete | 2026-02-20 |
 | 4. Dark Mode | v2.0 | 1/1 | Complete | 2026-02-20 |
-| 5. SEO & Metadata | v2.0 | 0/2 | Not started | - |
+| 5. SEO & Metadata | v2.0 | 1/2 | In Progress | - |
 | 6. Lighthouse Audit | v2.0 | 0/? | Not started | - |
