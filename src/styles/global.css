@@ -98,6 +98,29 @@ p {
   margin-block: 0 1rem;
 }
 
+/* === Language Switcher === */
+.lang-switch {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1000;
+  font-size: 0.875rem;
+  color: var(--color-text);
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: var(--color-bg);
+  cursor: pointer;
+}
+
+.lang-switch:hover,
+.lang-switch:focus-visible {
+  color: var(--color-link);
+  border-color: var(--color-link);
+  text-decoration: none;
+}
+
 /* === Horizontal Rule (section dividers) === */
 hr {
   border: none;

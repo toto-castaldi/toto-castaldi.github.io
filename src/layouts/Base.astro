@@ -8,7 +8,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 import '../styles/global.css';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
-import { getAbsoluteLocaleUrl } from 'astro:i18n';
+import { getAbsoluteLocaleUrl, getRelativeLocaleUrl } from 'astro:i18n';
 import ThemeToggle from '../components/ThemeToggle.astro';
 
 const lang = getLangFromUrl(Astro.url);
@@ -16,6 +16,10 @@ const t = useTranslations(lang);
 const itUrl = getAbsoluteLocaleUrl('it', '');
 const enUrl = getAbsoluteLocaleUrl('en', '');
 const ogImageURL = new URL('/og-image.png', Astro.site);
+
+const alternateLang = lang === 'it' ? 'en' : 'it';
+const alternateLabel = lang === 'it' ? 'English' : 'Italiano';
+const alternateUrl = getRelativeLocaleUrl(alternateLang, '');
 
 const personJsonLd = JSON.stringify({
   "@context": "https://schema.org",
@@ -84,6 +88,14 @@ const personJsonLd = JSON.stringify({
     <script type="application/ld+json" set:html={personJsonLd} />
   </head>
   <body>
+    <a
+      href={alternateUrl}
+      class="lang-switch"
+      aria-label={lang === 'it' ? 'Switch to English' : 'Passa a Italiano'}
+      onclick={`localStorage.setItem('preferred-lang','${alternateLang}')`}
+    >
+      {alternateLabel}
+    </a>
     <ThemeToggle />
     <slot />
   </body>
