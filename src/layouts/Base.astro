@@ -7,10 +7,37 @@ const { title, description = 'Pagina personale di Antonio Castaldi — Imprendit
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 import '../styles/global.css';
-import { getLangFromUrl } from '../i18n/utils';
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { getAbsoluteLocaleUrl } from 'astro:i18n';
 import ThemeToggle from '../components/ThemeToggle.astro';
 
 const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const itUrl = getAbsoluteLocaleUrl('it', '');
+const enUrl = getAbsoluteLocaleUrl('en', '');
+const ogImageURL = new URL('/og-image.png', Astro.site);
+
+const personJsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Antonio Castaldi",
+  "alternateName": "Toto",
+  "url": "https://toto-castaldi.github.io",
+  "image": ogImageURL.toString(),
+  "jobTitle": lang === 'it'
+    ? ["Imprenditore", "Informatico", "Personal Trainer"]
+    : ["Entrepreneur", "Software Engineer", "Personal Trainer"],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Skillbill srl",
+    "url": "https://www.skillbill.it/"
+  },
+  "knowsLanguage": ["it", "en"],
+  "sameAs": [
+    "https://github.com/toto-castaldi",
+    "https://toto-castaldi.com"
+  ]
+});
 ---
 <!doctype html>
 <html lang={lang}>
@@ -38,6 +65,23 @@ const lang = getLangFromUrl(Astro.url);
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={ogImageURL} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:locale" content={t('og.locale')} />
+    <meta property="og:locale:alternate" content={lang === 'it' ? 'en_US' : 'it_IT'} />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageURL} />
+    <!-- hreflang -->
+    <link rel="alternate" hreflang="it" href={itUrl} />
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="x-default" href={itUrl} />
+    <!-- JSON-LD -->
+    <script type="application/ld+json" set:html={personJsonLd} />
   </head>
   <body>
     <ThemeToggle />

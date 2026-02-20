@@ -33,6 +33,7 @@ export const ui = {
       'La Comunicazione Nonviolenta di Marshall Rosenberg mette al centro emozioni e bisogni. L\'ho studiata a più riprese e trovo che sia uno strumento eccezionale per connettermi a me stesso e agli altri. La uso quotidianamente.',
     'footer.contact': 'Mi puoi contattare scrivendomi alla mail',
     'footer.noai': 'scritto senza AI',
+    'og.locale': 'it_IT',
   },
   en: {
     'site.title': 'Antonio Castaldi',
@@ -61,5 +62,6 @@ export const ui = {
       'Marshall Rosenberg\'s Nonviolent Communication places emotions and needs at the centre. I have studied it extensively and find it an exceptional tool for connecting with myself and others. I use it daily.',
     'footer.contact': 'You can reach me by writing to',
     'footer.noai': 'written without AI',
+    'og.locale': 'en_US',
   },
 } as const;
