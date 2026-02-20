@@ -21,12 +21,13 @@ body {
   --font-h2: clamp(1.25rem, 1.1rem + 0.75vw, 1.5rem);
   --line-height: 1.6;
 
-  /* Colors (minimal white design) */
+  /* Colors (semantic names — ready for dark mode override) */
   --color-bg: #ffffff;
   --color-text: #1a1a1a;
   --color-text-secondary: #555555;
   --color-link: #0056b3;
   --color-link-hover: #003d80;
+  --color-border: #e0e0e0;
 
   /* Spacing */
   --content-max-width: 65ch;
@@ -83,6 +84,6 @@ p {
 /* === Horizontal Rule (section dividers) === */
 hr {
   border: none;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid var(--color-border);
   margin-block: 2.5rem;
 }
