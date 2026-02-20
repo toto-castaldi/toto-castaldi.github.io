@@ -7,9 +7,12 @@ const { title, description = 'Pagina personale di Antonio Castaldi — Imprendit
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 import '../styles/global.css';
+import { getLangFromUrl } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
 ---
 <!doctype html>
-<html lang="it">
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

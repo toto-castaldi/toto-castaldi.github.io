@@ -1,38 +1,61 @@
 ---
 import Base from '../layouts/Base.astro';
 import Section from '../components/Section.astro';
+import { useTranslations } from '../i18n/utils';
+
+const t = useTranslations('it');
 ---
-<Base title="Antonio Castaldi">
+<Base title={t('site.title')} description={t('site.description')}>
+  <script is:inline>
+    (function() {
+      var STORAGE_KEY = 'preferred-lang';
+      var stored = localStorage.getItem(STORAGE_KEY);
+      if (stored) {
+        if (stored === 'en' && window.location.pathname === '/') {
+          window.location.replace('/en/');
+        }
+        return;
+      }
+      var browserLang = navigator.language || navigator.userLanguage || '';
+      var isItalian = browserLang.startsWith('it');
+      if (!isItalian && window.location.pathname === '/') {
+        localStorage.setItem(STORAGE_KEY, 'en');
+        window.location.replace('/en/');
+      } else {
+        localStorage.setItem(STORAGE_KEY, 'it');
+      }
+    })();
+  </script>
   <main>
-    <h1>Antonio Castaldi</h1>
-    <p>Mi chiamo Antonio Castaldi ma tutti mi chiamano <em>Toto</em>, fallo anche tu :)</p>
-    <p>Ecco qualche parte di me :</p>
+    <h1>{t('site.title')}</h1>
+    <p set:html={t('intro.text')} />
+    <p>{t('intro.sections')}</p>
 
-    <Section title="Imprenditoria" id="imprenditoria">
-      <p>Prima da Freelance, poi in una società a nome collettivo ed infine da quasi vent'anni fondatore e manager di <a href="https://www.skillbill.it/" target="_blank" rel="noopener noreferrer">Skillbill srl</a>.</p>
-      <p>Credo di poter co-creare ambienti di lavoro dove le persone vogliono stare. Collaborazione, trasparenza e attenzione sono i miei valori principali.</p>
+    <Section title={t('section.entrepreneurship.title')} id="imprenditoria">
+      <p set:html={t('section.entrepreneurship.p1')} />
+      <p>{t('section.entrepreneurship.p2')}</p>
     </Section>
 
-    <Section title="Informatica" id="informatica">
-      <p>Mi piace tenermi aggiornato su algoritimi, linguaggi, architetture e soluzioni. Lo faccio sia per passione che per lavoro.</p>
-      <p><a href="https://github.com/toto-castaldi" target="_blank" rel="noopener noreferrer">Qui</a> i miei repo e <a href="https://toto-castaldi.com" target="_blank" rel="noopener noreferrer">Qui</a> dei progetti che ho creato.</p>
+    <Section title={t('section.cs.title')} id="informatica">
+      <p>{t('section.cs.p1')}</p>
+      <p set:html={t('section.cs.p2')} />
     </Section>
 
-    <Section title="Fitness" id="fitness">
-      <p>Mi alleno con costanza e impegno da molti anni. Mi fa stare bene, è uno dei motivi per cui mi sveglio ogni giorno.</p>
-      <p>Lavoro come Personal Trainer e come istruttore di Pilates in due palestre dell'interland milanese.</p>
+    <Section title={t('section.fitness.title')} id="fitness">
+      <p>{t('section.fitness.p1')}</p>
+      <p>{t('section.fitness.p2')}</p>
     </Section>
 
-    <Section title="Comunicazione Non Violenta" id="cnv">
-      <p>La Comunicazione Nonviolenta di Marshall Rosenberg mette al centro emozioni e bisogni. L'ho studiata a più riprese e trovo che sia uno strumento eccezionale per connettermi a me stesso e agli altri. La uso quotidianamente.</p>
+    <Section title={t('section.cnv.title')} id="cnv">
+      <p>{t('section.cnv.p1')}</p>
     </Section>
 
     <hr />
 
     <footer>
-      <p>Mi puoi contattare scrivendomi alla mail <a href="mailto:toto.castaldi@gmail.com">toto.castaldi@gmail.com</a></p>
+      <p><Fragment set:html={t('footer.contact')} /> <a href="mailto:toto.castaldi@gmail.com">toto.castaldi@gmail.com</a></p>
       <hr />
-      <p><strong>scritto senza AI</strong></p>
+      <p><strong>{t('footer.noai')}</strong></p>
     </footer>
   </main>
 </Base>
