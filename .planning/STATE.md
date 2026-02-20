@@ -10,17 +10,17 @@ See: .planning/PROJECT.md (updated 2026-02-19)
 ## Current Position
 
 Phase: 3 of 6 (Foundation & i18n Content)
-Plan: 0 of ? in current phase
-Status: Ready to plan
-Last activity: 2026-02-19 -- Roadmap created for v2.0
+Plan: 1 of 2 in current phase
+Status: Executing phase 3
+Last activity: 2026-02-20 -- Completed 03-01 (CSS variables, i18n config, translations)
 
-Progress: [██████████░░░░░░░░░░] 50% (2/4 phases planned as v1.0 complete; 0/4 v2.0 phases started)
+Progress: [██████████░░░░░░░░░░] 50% (v1.0 complete; phase 3 plan 1/2 done)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 2 (v1.0)
-- Average duration: ~14min
+- Total plans completed: 3 (2 v1.0 + 1 v2.0)
+- Average duration: ~10min
 - Total execution time: ~0.5 hours
 
 **By Phase:**
@@ -29,6 +29,7 @@ Progress: [██████████░░░░░░░░░░] 50% (2/
 |-------|-------|-------|----------|
 | 01-scaffold-e-ci-cd | 1/1 | ~25min | ~25min |
 | 02-contenuto-design-e-metadata | 1/1 | ~2min | ~2min |
+| 03-foundation-i18n-content | 1/2 | ~2min | ~2min |
 
 *Updated after each plan completion*
 
@@ -42,6 +43,9 @@ Recent decisions affecting current work:
 - v2.0: Separate pages for i18n (SEO-friendly hreflang, no JS)
 - v2.0: Toggle JS for dark mode (relaxes zero-JS constraint, minimal and functional)
 - v2.0: Static PNG for og:image (Satori deferred to future enhancement)
+- 03-01: English translations use professional tone matching Italian original
+- 03-01: Translation keys use dot-separated hierarchy (site.title, section.cs.p1)
+- 03-01: HTML preserved inline in translation strings (links, emphasis)
 
 ### Pending Todos
 
@@ -49,11 +53,10 @@ None.
 
 ### Blockers/Concerns
 
-- Phase 3: EN translation content must be authored (human bottleneck)
 - Phase 5: og:image visual design must be decided before phase starts
 
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Phase 3 context gathered
-Resume file: .planning/phases/03-foundation-i18n-content/03-CONTEXT.md
+Stopped at: Completed 03-01-PLAN.md
+Resume file: .planning/phases/03-foundation-i18n-content/03-01-SUMMARY.md

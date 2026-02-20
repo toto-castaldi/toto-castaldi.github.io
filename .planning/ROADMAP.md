@@ -36,7 +36,7 @@
 **Plans**: 2 plans
 
 Plans:
-- [ ] 03-01-PLAN.md — CSS variable refactor, Astro i18n config, translation dictionary and helpers
+- [x] 03-01-PLAN.md — CSS variable refactor, Astro i18n config, translation dictionary and helpers
 - [ ] 03-02-PLAN.md — Refactor pages to use translations, create EN page, browser language detection
 
 ### Phase 4: Dark Mode
@@ -90,7 +90,7 @@ Plans:
 |-------|-----------|----------------|--------|-----------|
 | 1. Scaffold e CI/CD | v1.0 | 1/1 | Complete | 2026-02-19 |
 | 2. Contenuto, Design e Metadata | v1.0 | 1/1 | Complete | 2026-02-19 |
-| 3. Foundation & i18n Content | v2.0 | 0/2 | Planned | - |
+| 3. Foundation & i18n Content | v2.0 | 1/2 | In Progress | - |
 | 4. Dark Mode | v2.0 | 0/? | Not started | - |
 | 5. SEO & Metadata | v2.0 | 0/? | Not started | - |
 | 6. Lighthouse Audit | v2.0 | 0/? | Not started | - |
