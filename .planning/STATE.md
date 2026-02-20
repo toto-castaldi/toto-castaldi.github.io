@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-19)
 
 **Core value:** La pagina personale di Toto deve essere visibile e aggiornata su https://toto-castaldi.github.io/ con un stack moderno e manutenibile.
-**Current focus:** v2.0 Enhancement & i18n -- Phase 5: SEO & Metadata (complete), ready for Phase 6
+**Current focus:** v2.0 Enhancement & i18n -- Phase 6: Lighthouse Audit (COMPLETE) -- ALL PHASES DONE
 
 ## Current Position
 
-Phase: 5 of 6 (SEO & Metadata) -- COMPLETE
-Plan: 2 of 2 in current phase (complete)
-Status: Phase 5 complete, ready for Phase 6 (Lighthouse Audit)
-Last activity: 2026-02-20 -- Completed 05-02 (language switcher with localStorage sync)
+Phase: 6 of 6 (Lighthouse Audit) -- COMPLETE
+Plan: 1 of 1 in current phase (complete)
+Status: ALL PHASES COMPLETE -- v2.0 Enhancement & i18n fully delivered
+Last activity: 2026-02-20 -- Completed 06-01 (Lighthouse SEO fix, all scores 100)
 
-Progress: [██████████████████░░] 90% (v1.0 complete; phases 3-5 complete, phase 6 remaining)
+Progress: [████████████████████] 100% (v1.0 complete; all v2.0 phases 3-6 complete)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 7 (2 v1.0 + 5 v2.0)
-- Average duration: ~7min
-- Total execution time: ~0.75 hours
+- Total plans completed: 8 (2 v1.0 + 6 v2.0)
+- Average duration: ~6min
+- Total execution time: ~0.8 hours
 
 **By Phase:**
 
@@ -32,10 +32,12 @@ Progress: [██████████████████░░] 90% (v1
 | 03-foundation-i18n-content | 2/2 | ~7min | ~3.5min |
 | 04-dark-mode | 1/1 | ~5min | ~5min |
 | 05-seo-metadata | 2/2 | ~5min | ~2.5min |
+| 06-lighthouse-audit | 1/1 | ~2min | ~2min |
 
 *Updated after each plan completion*
 | Phase 05 P01 | 2min | 2 tasks | 4 files |
 | Phase 05 P02 | 3min | 2 tasks | 2 files |
+| Phase 06 P01 | 2min | 2 tasks | 1 file |
 
 ## Accumulated Context
 
@@ -63,6 +65,8 @@ Recent decisions affecting current work:
 - [Phase 05]: 05-02: Language switcher top-left fixed position mirroring theme toggle at top-right for balanced layout
 - [Phase 05]: 05-02: Simple <a> element for lang switcher (not dropdown) since only two locales exist
 - [Phase 05]: 05-02: onclick sets localStorage before navigation to prevent auto-redirect bounce
+- [Phase 06]: 06-01: Restructured sentences around links for natural descriptive text in both IT and EN
+- [Phase 06]: 06-01: Accepted structural equivalence for /en/ Lighthouse audit (redirect prevents independent /it/ audit)
 
 ### Pending Todos
 
@@ -75,5 +79,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 05-02-PLAN.md (Phase 5 complete)
-Resume file: .planning/phases/05-seo-metadata/05-02-SUMMARY.md
+Stopped at: Completed 06-01-PLAN.md (Phase 6 complete -- ALL PHASES DONE)
+Resume file: .planning/phases/06-lighthouse-audit/06-01-SUMMARY.md

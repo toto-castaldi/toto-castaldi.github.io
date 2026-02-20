@@ -29,10 +29,10 @@
 
 ### Performance
 
-- [ ] **PERF-01**: Lighthouse Performance score >= 95
-- [ ] **PERF-02**: Lighthouse Accessibility score >= 95
-- [ ] **PERF-03**: Lighthouse Best Practices score >= 95
-- [ ] **PERF-04**: Lighthouse SEO score >= 95
+- [x] **PERF-01**: Lighthouse Performance score >= 95
+- [x] **PERF-02**: Lighthouse Accessibility score >= 95
+- [x] **PERF-03**: Lighthouse Best Practices score >= 95
+- [x] **PERF-04**: Lighthouse SEO score >= 95
 
 ## Future Requirements
 
@@ -72,10 +72,10 @@
 | SEO-01 | Phase 5 | Complete |
 | SEO-02 | Phase 5 | Complete |
 | SEO-03 | Phase 5 | Complete |
-| PERF-01 | Phase 6 | Pending |
-| PERF-02 | Phase 6 | Pending |
-| PERF-03 | Phase 6 | Pending |
-| PERF-04 | Phase 6 | Pending |
+| PERF-01 | Phase 6 | Complete |
+| PERF-02 | Phase 6 | Complete |
+| PERF-03 | Phase 6 | Complete |
+| PERF-04 | Phase 6 | Complete |
 
 **Coverage:**
 - v2 requirements: 17 total

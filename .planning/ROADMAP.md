@@ -3,7 +3,7 @@
 ## Milestones
 
 - ✅ **v1.0 Tech Rebuild** -- Phases 1-2 (shipped 2026-02-19)
-- 🚧 **v2.0 Enhancement & i18n** -- Phases 3-6 (in progress)
+- ✅ **v2.0 Enhancement & i18n** -- Phases 3-6 (shipped 2026-02-20)
 
 ## Phases
 
@@ -20,7 +20,7 @@
 - [x] **Phase 3: Foundation & i18n Content** - CSS variable refactor, Astro i18n config, EN page with translations
 - [x] **Phase 4: Dark Mode** - Theme toggle, system preference, FOUC prevention, accessible contrast (completed 2026-02-20)
 - [x] **Phase 5: SEO & Metadata** - Schema.org JSON-LD, og:image, anchor links, hreflang, language switcher, translated meta (completed 2026-02-20)
-- [ ] **Phase 6: Lighthouse Audit** - Validate all four Lighthouse scores >= 95 on both locales and both themes
+- [x] **Phase 6: Lighthouse Audit** - Validate all four Lighthouse scores >= 95 on both locales and both themes (completed 2026-02-20)
 
 ## Phase Details
 
@@ -81,7 +81,7 @@ Plans:
 **Plans**: 1 plan
 
 Plans:
-- [ ] 06-01-PLAN.md — Fix non-descriptive link text and verify Lighthouse scores >= 95
+- [x] 06-01-PLAN.md — Fix non-descriptive link text and verify Lighthouse scores >= 95
 
 ## Progress
 
@@ -94,4 +94,4 @@ Plans:
 | 3. Foundation & i18n Content | v2.0 | 2/2 | Complete | 2026-02-20 |
 | 4. Dark Mode | v2.0 | 1/1 | Complete | 2026-02-20 |
 | 5. SEO & Metadata | v2.0 | Complete    | 2026-02-20 | 2026-02-20 |
-| 6. Lighthouse Audit | v2.0 | 0/1 | Not started | - |
+| 6. Lighthouse Audit | v2.0 | 1/1 | Complete | 2026-02-20 |
