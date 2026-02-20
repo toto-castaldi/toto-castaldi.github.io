@@ -15,8 +15,8 @@
 
 ### Internationalization
 
-- [ ] **I18N-01**: English translation of all content available at /en/ path
-- [ ] **I18N-02**: Italian content remains at root / (default locale, no prefix)
+- [x] **I18N-01**: English translation of all content available at /en/ path
+- [x] **I18N-02**: Italian content remains at root / (default locale, no prefix)
 - [ ] **I18N-03**: hreflang tags on all pages (including self-references)
 - [ ] **I18N-04**: Language switcher link visible on all pages
 - [ ] **I18N-05**: OG metadata (title, description) translated per language
@@ -64,8 +64,8 @@
 | DARK-03 | Phase 4 | Pending |
 | DARK-04 | Phase 4 | Pending |
 | DARK-05 | Phase 4 | Pending |
-| I18N-01 | Phase 3 | Pending |
-| I18N-02 | Phase 3 | Pending |
+| I18N-01 | Phase 3 | Complete |
+| I18N-02 | Phase 3 | Complete |
 | I18N-03 | Phase 5 | Pending |
 | I18N-04 | Phase 5 | Pending |
 | I18N-05 | Phase 5 | Pending |
@@ -84,4 +84,4 @@
 
 ---
 *Requirements defined: 2026-02-19*
-*Last updated: 2026-02-19 after roadmap creation*
+*Last updated: 2026-02-20 after phase 3 completion*

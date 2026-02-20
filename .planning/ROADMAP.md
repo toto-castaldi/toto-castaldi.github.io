@@ -17,7 +17,7 @@
 
 ### v2.0 Enhancement & i18n
 
-- [ ] **Phase 3: Foundation & i18n Content** - CSS variable refactor, Astro i18n config, EN page with translations
+- [x] **Phase 3: Foundation & i18n Content** - CSS variable refactor, Astro i18n config, EN page with translations
 - [ ] **Phase 4: Dark Mode** - Theme toggle, system preference, FOUC prevention, accessible contrast
 - [ ] **Phase 5: SEO & Metadata** - Schema.org JSON-LD, og:image, anchor links, hreflang, language switcher, translated meta
 - [ ] **Phase 6: Lighthouse Audit** - Validate all four Lighthouse scores >= 95 on both locales and both themes
@@ -37,7 +37,7 @@
 
 Plans:
 - [x] 03-01-PLAN.md — CSS variable refactor, Astro i18n config, translation dictionary and helpers
-- [ ] 03-02-PLAN.md — Refactor pages to use translations, create EN page, browser language detection
+- [x] 03-02-PLAN.md — Refactor pages to use translations, create EN page, browser language detection
 
 ### Phase 4: Dark Mode
 **Goal**: Users can switch between light and dark themes with their preference remembered and no flash on load
@@ -90,7 +90,7 @@ Plans:
 |-------|-----------|----------------|--------|-----------|
 | 1. Scaffold e CI/CD | v1.0 | 1/1 | Complete | 2026-02-19 |
 | 2. Contenuto, Design e Metadata | v1.0 | 1/1 | Complete | 2026-02-19 |
-| 3. Foundation & i18n Content | v2.0 | 1/2 | In Progress | - |
+| 3. Foundation & i18n Content | v2.0 | 2/2 | Complete | 2026-02-20 |
 | 4. Dark Mode | v2.0 | 0/? | Not started | - |
 | 5. SEO & Metadata | v2.0 | 0/? | Not started | - |
 | 6. Lighthouse Audit | v2.0 | 0/? | Not started | - |
