@@ -88,15 +88,17 @@ const personJsonLd = JSON.stringify({
     <script type="application/ld+json" set:html={personJsonLd} />
   </head>
   <body>
-    <a
-      href={alternateUrl}
-      class="lang-switch"
-      aria-label={lang === 'it' ? 'Switch to English' : 'Passa a Italiano'}
-      onclick={`localStorage.setItem('preferred-lang','${alternateLang}')`}
-    >
-      {alternateLabel}
-    </a>
-    <ThemeToggle />
+    <div class="site-toolbar">
+      <a
+        href={alternateUrl}
+        class="lang-switch"
+        aria-label={lang === 'it' ? 'Switch to English' : 'Passa a Italiano'}
+        onclick={`localStorage.setItem('preferred-lang','${alternateLang}')`}
+      >
+        {alternateLabel}
+      </a>
+      <ThemeToggle />
+    </div>
     <slot />
   </body>
 </html>

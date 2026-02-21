@@ -98,12 +98,19 @@ p {
   margin-block: 0 1rem;
 }
 
-/* === Language Switcher === */
-.lang-switch {
+/* === Site Toolbar (fixed top-right controls) === */
+.site-toolbar {
   position: fixed;
   top: 1rem;
-  left: 1rem;
+  right: 1rem;
   z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* === Language Switcher === */
+.lang-switch {
   font-size: 0.875rem;
   color: var(--color-text);
   text-decoration: none;
