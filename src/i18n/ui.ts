@@ -34,6 +34,8 @@ export const ui = {
     'footer.contact': 'Mi puoi contattare scrivendomi alla mail',
     'footer.noai': 'scritto senza AI',
     'og.locale': 'it_IT',
+    'og.title': 'Toto Antonio Castaldi',
+    'og.description': 'Imprenditore, Fitness Trainer, Cnv',
   },
   en: {
     'site.title': 'Antonio Castaldi',
@@ -63,5 +65,7 @@ export const ui = {
     'footer.contact': 'You can reach me by writing to',
     'footer.noai': 'written without AI',
     'og.locale': 'en_US',
+    'og.title': 'Toto Antonio Castaldi',
+    'og.description': 'Entrepreneur, Fitness Trainer, NVC',
   },
 } as const;

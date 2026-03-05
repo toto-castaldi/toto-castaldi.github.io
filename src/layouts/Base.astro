@@ -16,6 +16,8 @@ const t = useTranslations(lang);
 const itUrl = getAbsoluteLocaleUrl('it', '');
 const enUrl = getAbsoluteLocaleUrl('en', '');
 const ogImageURL = new URL('/og-image.png', Astro.site);
+const ogTitle = t('og.title');
+const ogDescription = t('og.description');
 
 const alternateLang = lang === 'it' ? 'en' : 'it';
 const alternateLabel = lang === 'it' ? 'English' : 'Italiano';
@@ -65,8 +67,8 @@ const personJsonLd = JSON.stringify({
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={canonicalURL} />
     <!-- Open Graph -->
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
+    <meta property="og:title" content={ogTitle} />
+    <meta property="og:description" content={ogDescription} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:image" content={ogImageURL} />
@@ -77,8 +79,8 @@ const personJsonLd = JSON.stringify({
     <meta property="og:locale:alternate" content={lang === 'it' ? 'en_US' : 'it_IT'} />
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
+    <meta name="twitter:title" content={ogTitle} />
+    <meta name="twitter:description" content={ogDescription} />
     <meta name="twitter:image" content={ogImageURL} />
     <!-- hreflang -->
     <link rel="alternate" hreflang="it" href={itUrl} />
