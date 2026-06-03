@@ -43,4 +43,19 @@
 
 ## Traceability
 
-_(filled by roadmap — REQ-ID → Phase)_
+| Requirement | Phase | Status |
+|-------------|-------|--------|
+| SEC-01 | Phase 8 | Pending |
+| SEC-02 | Phase 8 | Pending |
+| SEC-03 | Phase 8 | Pending |
+| SEC-04 | Phase 8 | Pending |
+| GOV-01 | Phase 9 | Pending |
+| GOV-02 | Phase 9 | Pending |
+| GOV-03 | Phase 9 | Pending |
+| DOC-01 | Phase 10 | Pending |
+| DOC-02 | Phase 10 | Pending |
+| DOC-03 | Phase 10 | Pending |
+| QUAL-01 | Phase 11 | Pending |
+| QUAL-02 | Phase 11 | Pending |
+
+**Coverage:** 12/12 v3.1 REQ-IDs mapped (SEC×4, GOV×3, DOC×3, QUAL×2) — no orphans, no duplicates.

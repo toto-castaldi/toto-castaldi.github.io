@@ -6,7 +6,7 @@ status: planning
 last_updated: "2026-06-03T15:14:45.096Z"
 last_activity: 2026-06-03
 progress:
-  total_phases: 0
+  total_phases: 4
   completed_phases: 0
   total_plans: 0
   completed_plans: 0
@@ -20,14 +20,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-06-03)
 
 **Core value:** La pagina personale di Toto deve essere visibile e aggiornata su https://toto-castaldi.github.io/ con un stack moderno e manutenibile.
-**Current focus:** Milestone complete
+**Current focus:** v3.1 roadmap created — ready to plan Phase 8 (Sicurezza dipendenze)
 
 ## Current Position
 
-Phase: Not started (defining requirements)
+Phase: 8 — Sicurezza dipendenze (Dependabot) (not started)
 Plan: —
-Status: Defining requirements
-Last activity: 2026-06-03 — Milestone v3.1 started
+Status: Roadmap complete — awaiting phase planning
+Last activity: 2026-06-03 — v3.1 roadmap created (Phases 8-11, 12/12 requirements mapped)
 
 ## Accumulated Context
 
@@ -35,17 +35,19 @@ Last activity: 2026-06-03 — Milestone v3.1 started
 
 Full decision log in PROJECT.md Key Decisions table.
 
+v3.1 roadmap decisions:
+- One phase per requirement category (SEC/GOV/DOC/QUAL), security first.
+- Phase 11 (estensione qualifiche) depends on Phase 10 (ADR redazione) — i criteri di redazione formalizzati sono prerequisito della procedura "aggiungi diploma".
+- Phases 8-11 numbered continuing from v3.0 (ended at Phase 7).
+
 ### Pending Todos
 
 None.
 
 ### Blockers/Concerns
 
-None — all Phase 7 concerns resolved at milestone close:
-
-- Source PDFs redacted to pixel-burned WebP previews (07-01); no PDF published.
-- `Base.astro` made path-aware via the `alternates` prop (07-02); hreflang reciprocal + canonical-consistent (WR-02 fixed).
-- Decision-coverage gate false-positive confirmed: verifier traced all 10 requirements (10/10) and decisions to tasks.
+- Phase 8: precedente bump Dependabot di astro fallito (run 25837277597) — il deploy GitHub Pages deve essere ri-verificato dopo l'aggiornamento.
+- 22 vulnerabilità Dependabot aperte (8 high, 10 moderate, 4 low) segnalate a ogni push.
 
 ## Deferred Items
 
@@ -53,7 +55,7 @@ Items acknowledged and deferred at milestone v3.0 close on 2026-06-03:
 
 | Category | Item | Status |
 |----------|------|--------|
-| quick_task | 1-fix-language-selector-overlapping-headin | resolved (stale audit flag — completed 2026-02-21, commit aedae71; recorded under Quick Tasks Completed) |
+| quick_task | 1-fix-language-selector-overlapping-headin | resolved (stale audit flag — completed 2026-02-21, commit aedae71; recorded under Quick Tasks Completed). To be formally reconciled in Phase 9 (GOV-02). |
 
 ### Quick Tasks Completed
 
@@ -63,9 +65,9 @@ Items acknowledged and deferred at milestone v3.0 close on 2026-06-03:
 
 ## Session Continuity
 
-Last session: 2026-06-03T14:27:41.044Z
-Stopped at: Milestone v3.0 complete
+Last session: 2026-06-03T15:14:45.096Z
+Stopped at: v3.1 roadmap created (Phases 8-11)
 
 ## Operator Next Steps
 
-- Start the next milestone with /gsd-new-milestone
+- Plan the first phase with /gsd:plan-phase 8
