@@ -54,7 +54,9 @@ Pagina dedicata IT/EN (`/qualifiche`, `/en/qualifications`) con anteprime redatt
   2. `npm audit` è pulito (o i residui sono giustificati esplicitamente) e Astro + dipendenze sono su versioni supportate senza vuln note.
   3. Dopo gli aggiornamenti il sito builda in locale e il workflow GitHub Pages completa il deploy con successo (superando il precedente fallimento del bump astro, run 25837277597).
   4. Lighthouse riporta 100/100/100/100 su home (IT/EN) e qualifiche dopo gli aggiornamenti.
-**Plans**: TBD
+**Plans**: 2 plans
+  - [ ] 08-01-PLAN.md — Fix fixable vulns (npm audit fix + npm update), document 3 accepted astro moderate residuals, add minimal Dependabot config
+  - [ ] 08-02-PLAN.md — De-risk deploy: clean npm ci + build, Lighthouse 100×4, confirm GitHub Pages deploy success
 
 ### Phase 9: Igiene tracciabilità planning
 **Goal**: Riconciliare lo stato meccanico dei checkbox con lo stato verificato, chiarire e documentare il falso positivo "stale artifact" del quick task v2.0, e stabilire un controllo di coerenza riproducibile prima della chiusura milestone. (Sola pianificazione/docs — nessun codice applicativo.)
@@ -101,7 +103,7 @@ Pagina dedicata IT/EN (`/qualifiche`, `/en/qualifications`) con anteprime redatt
 | 5. SEO & Metadata | v2.0 | 2/2 | Complete | 2026-02-20 |
 | 6. Lighthouse Audit | v2.0 | 1/1 | Complete | 2026-02-20 |
 | 7. Pagina Qualifiche Multilingua | v3.0 | 3/3 | Complete | 2026-06-03 |
-| 8. Sicurezza dipendenze (Dependabot) | v3.1 | 0/? | Not started | - |
+| 8. Sicurezza dipendenze (Dependabot) | v3.1 | 0/2 | Planned | - |
 | 9. Igiene tracciabilità planning | v3.1 | 0/? | Not started | - |
 | 10. ADR / redazione diplomi PII | v3.1 | 0/? | Not started | - |
 | 11. Estendere pattern qualifiche | v3.1 | 0/? | Not started | - |
