@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v3.1
 milestone_name: Manutenzione, Governance & Qualifiche
-status: planning
+status: executing
 stopped_at: Phase 8 context gathered
-last_updated: "2026-06-03T15:29:28.292Z"
-last_activity: 2026-06-03 — v3.1 roadmap created (Phases 8-11, 12/12 requirements mapped)
+last_updated: "2026-06-03T15:47:02.963Z"
+last_activity: 2026-06-03 -- Phase 08 planning complete
 progress:
   total_phases: 4
   completed_phases: 0
-  total_plans: 0
+  total_plans: 2
   completed_plans: 0
   percent: 0
 ---
@@ -27,8 +27,8 @@ See: .planning/PROJECT.md (updated 2026-06-03)
 
 Phase: 8 — Sicurezza dipendenze (Dependabot) (not started)
 Plan: —
-Status: Roadmap complete — awaiting phase planning
-Last activity: 2026-06-03 — v3.1 roadmap created (Phases 8-11, 12/12 requirements mapped)
+Status: Ready to execute
+Last activity: 2026-06-03 -- Phase 08 planning complete
 
 ## Accumulated Context
 
