@@ -10,7 +10,7 @@ La pagina personale di Toto deve essere visibile e aggiornata su https://toto-ca
 
 ## Current State
 
-**Planning v3.1 Manutenzione, Governance & Qualifiche** — v3.0 live at https://toto-castaldi.github.io/qualifiche/ and /en/qualifications/.
+**Executing v3.1 Manutenzione, Governance & Qualifiche** — Phase 8 (sicurezza dipendenze) complete: Dependabot vulnerabilities 22 → 2 (0 high), Astro on 5.18.2, minimal Dependabot governance added, GitHub Pages deploy green (run 26897503458). v3.0 live at https://toto-castaldi.github.io/qualifiche/ and /en/qualifications/.
 
 Milestones shipped: v1.0 Tech Rebuild · v2.0 Enhancement & i18n · v3.0 Qualifiche Fitness.
 
@@ -62,6 +62,10 @@ Milestones shipped: v1.0 Tech Rebuild · v2.0 Enhancement & i18n · v3.0 Qualifi
 - ✓ Anteprime immagine dei 3 diplomi con PII oscurati, nessun PDF scaricabile — v3.0 (Phase 7)
 - ✓ Link alla pagina qualifiche dalla sezione Fitness — v3.0 (Phase 7)
 - ✓ Lighthouse 100/100/100/100 mantenuto sulle nuove pagine — v3.0 (Phase 7)
+- ✓ Vulnerabilità Dependabot azzerate per high/moderate, residui astro documentati (SEC-01) — v3.1 (Phase 8)
+- ✓ Astro/dipendenze su versioni supportate, `npm audit` senza high (SEC-02) — v3.1 (Phase 8)
+- ✓ Build locale + deploy GitHub Pages riusciti dopo gli aggiornamenti (SEC-03) — v3.1 (Phase 8)
+- ✓ Lighthouse 100×4 mantenuto dopo gli aggiornamenti, deploy live verde (SEC-04) — v3.1 (Phase 8)
 
 ### Active
 
@@ -117,6 +121,8 @@ v3.0 adds a dedicated multilingual qualifiche page (/qualifiche, /en/qualificati
 | Redazione PII bruciata nei pixel (convert -draw, no blur/CSS) | Oscuramento irreversibile delle firme di terzi + N.39740; nessun PDF pubblicato | ✓ Good — v3.0 |
 | Zoom diploma via <dialog> + Invoker Commands (no JS author) | A11y nativa (focus trap, ESC, return-focus) a zero JS; degrada con grazia su browser pre-2025 | ✓ Good — v3.0 |
 | alternates prop su Base.astro per hreflang path-aware | Pagine non-home dichiarano hreflang reciproco senza far regredire le home | ✓ Good — v3.0 |
+| Restare su Astro 5.x + fix solo transitive (no Astro 6) | Bump di sicurezza in-place; i 2 residui astro moderate non sono sfruttabili su sito statico zero-JS | ✓ Good — v3.1 (Phase 8) |
+| Dependabot minimale (npm + github-actions, weekly, grouped) | Governance anti-recidiva a basso costo, nessun impatto su build/Lighthouse | ✓ Good — v3.1 (Phase 8) |
 
 ## Evolution
 
@@ -136,4 +142,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-06-03 — starting v3.1 Manutenzione, Governance & Qualifiche milestone*
+*Last updated: 2026-06-03 — Phase 8 (sicurezza dipendenze / Dependabot) complete*
