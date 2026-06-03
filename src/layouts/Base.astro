@@ -2,26 +2,29 @@
 interface Props {
   title: string;
   description?: string;
+  alternates?: { it: string; en: string };
 }
-const { title, description = 'Pagina personale di Antonio Castaldi — Imprenditore, informatico, personal trainer.' } = Astro.props;
+const { title, description = 'Pagina personale di Antonio Castaldi — Imprenditore, informatico, personal trainer.', alternates } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 import '../styles/global.css';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
-import { getAbsoluteLocaleUrl, getRelativeLocaleUrl } from 'astro:i18n';
+import { getRelativeLocaleUrl } from 'astro:i18n';
 import ThemeToggle from '../components/ThemeToggle.astro';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-const itUrl = getAbsoluteLocaleUrl('it', '');
-const enUrl = getAbsoluteLocaleUrl('en', '');
+const itUrl = new URL(alternates?.it ?? '/', Astro.site).toString();
+const enUrl = new URL(alternates?.en ?? '/en/', Astro.site).toString();
 const ogImageURL = new URL('/og-image.png', Astro.site);
 const ogTitle = t('og.title');
 const ogDescription = t('og.description');
 
 const alternateLang = lang === 'it' ? 'en' : 'it';
 const alternateLabel = lang === 'it' ? 'English' : 'Italiano';
-const alternateUrl = getRelativeLocaleUrl(alternateLang, '');
+const alternateUrl = alternates
+  ? (alternateLang === 'en' ? alternates.en : alternates.it)
+  : getRelativeLocaleUrl(alternateLang, '');
 
 const personJsonLd = JSON.stringify({
   "@context": "https://schema.org",
