@@ -28,7 +28,7 @@
 
 ### v3.0 Qualifiche Fitness
 
-- [ ] **Phase 7: Pagina Qualifiche Multilingua** - Pagina dedicata IT/EN con anteprime redatte dei 3 diplomi, linkata dalla sezione Fitness, SEO e Lighthouse 100 mantenuti
+- [x] **Phase 7: Pagina Qualifiche Multilingua** - Pagina dedicata IT/EN con anteprime redatte dei 3 diplomi, linkata dalla sezione Fitness, SEO e Lighthouse 100 mantenuti (completed 2026-06-03)
 
 ## Phase Details
 
@@ -55,7 +55,7 @@ Plans:
 
 **Wave 2** *(blocked on Wave 1 completion)*
 
-- [ ] 07-03-PLAN.md — Le due pagine /qualifiche e /en/qualifications: anteprime, zoom accessibile, hreflang reciproci, Lighthouse 100 (QUAL-01/02/03/05/06, INT-04)
+- [x] 07-03-PLAN.md — Le due pagine /qualifiche e /en/qualifications: anteprime, zoom accessibile, hreflang reciproci, Lighthouse 100 (QUAL-01/02/03/05/06, INT-04)
 
 **UI hint**: yes
 
@@ -75,4 +75,4 @@ Plans:
 | 4. Dark Mode | v2.0 | 1/1 | Complete | 2026-02-20 |
 | 5. SEO & Metadata | v2.0 | 2/2 | Complete | 2026-02-20 |
 | 6. Lighthouse Audit | v2.0 | 1/1 | Complete | 2026-02-20 |
-| 7. Pagina Qualifiche Multilingua | v3.0 | 2/3 | In Progress|  |
+| 7. Pagina Qualifiche Multilingua | v3.0 | 3/3 | Complete   | 2026-06-03 |
