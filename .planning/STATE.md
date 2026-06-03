@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v3.1
 milestone_name: Manutenzione, Governance & Qualifiche
-status: executing
-stopped_at: Phase 8 complete (2/2 plans) — awaiting phase verification
-last_updated: "2026-06-03T16:20:00.000Z"
+status: ready_to_plan
+stopped_at: Phase 08 complete (2/2) — ready to discuss Phase 09
+last_updated: 2026-06-03T16:21:52.983Z
 last_activity: 2026-06-03 -- Phase 08 Plan 02 complete (clean build, deploy run 26897503458 success, Lighthouse 100×4)
 progress:
   total_phases: 4
   completed_phases: 0
   total_plans: 2
   completed_plans: 2
-  percent: 100
+  percent: 0
 ---
 
 # Project State
@@ -21,14 +21,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-06-03)
 
 **Core value:** La pagina personale di Toto deve essere visibile e aggiornata su https://toto-castaldi.github.io/ con un stack moderno e manutenibile.
-**Current focus:** Phase 08 — sicurezza-dipendenze-dependabot
+**Current focus:** Phase 09 — igiene tracciabilita planning
 
 ## Current Position
 
-Phase: 08 (sicurezza-dipendenze-dependabot) — COMPLETE (2/2 plans), awaiting phase verification
-Plan: 2 of 2 (08-01 + 08-02 complete)
-Status: Phase 08 plans complete
-Last activity: 2026-06-03 -- Phase 08 Plan 02 complete (clean npm ci + build exit 0, deploy run 26897503458 success, Lighthouse 100×4)
+Phase: 09
+Plan: Not started
+Status: Ready to plan
+Last activity: 2026-06-03
 
 ## Accumulated Context
 
