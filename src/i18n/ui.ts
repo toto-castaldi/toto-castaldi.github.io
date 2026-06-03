@@ -27,7 +27,29 @@ export const ui = {
     'section.fitness.p1':
       'Mi alleno con costanza e impegno da molti anni. Mi fa stare bene, è uno dei motivi per cui mi sveglio ogni giorno.',
     'section.fitness.p2':
-      'Lavoro come Personal Trainer e come istruttore di Pilates in due palestre dell\'interland milanese.',
+      'Lavoro come <a href="/qualifiche">Personal Trainer e come istruttore di Pilates</a> in due palestre dell\'interland milanese.',
+    'qualifiche.title': 'Qualifiche',
+    'qualifiche.description':
+      'Le qualifiche e certificazioni di Antonio Castaldi come Personal Trainer e istruttore di Pilates Reformer e Cadillac.',
+    'qualifiche.intro':
+      'Le mie certificazioni come Personal Trainer e istruttore di Pilates.',
+    'qualifiche.back': '← Torna alla home',
+    'qualifiche.pesistica.label': 'Personal Trainer',
+    'qualifiche.pesistica.body': 'MSP Italia — 05/12/2025',
+    'qualifiche.reformer.label': 'Pilates Reformer Liv.1',
+    'qualifiche.reformer.body': 'Zen Studio Pilates — 16/11/2025',
+    'qualifiche.cadillac.label': 'Pilates Cadillac Liv.1',
+    'qualifiche.cadillac.body': 'Zen Studio Pilates — 21/02/2026',
+    'qualifiche.alt.pesistica':
+      'Diploma di qualifica come Personal Trainer rilasciato da MSP Italia',
+    'qualifiche.alt.reformer':
+      'Diploma di Pilates Reformer Livello 1 rilasciato da Zen Studio Pilates',
+    'qualifiche.alt.cadillac':
+      'Diploma di Pilates Cadillac Livello 1 rilasciato da Zen Studio Pilates',
+    'qualifiche.zoom.pesistica': 'Ingrandisci il diploma di Personal Trainer',
+    'qualifiche.zoom.reformer': 'Ingrandisci il diploma di Pilates Reformer Liv.1',
+    'qualifiche.zoom.cadillac': 'Ingrandisci il diploma di Pilates Cadillac Liv.1',
+    'qualifiche.close': 'Chiudi',
     'section.cnv.title': 'Comunicazione Non Violenta',
     'section.cnv.p1':
       'La Comunicazione Nonviolenta di Marshall Rosenberg mette al centro emozioni e bisogni. L\'ho studiata a più riprese e trovo che sia uno strumento eccezionale per connettermi a me stesso e agli altri. La uso quotidianamente.',
@@ -58,7 +80,29 @@ export const ui = {
     'section.fitness.p1':
       'I have been training consistently and with dedication for many years. It makes me feel good and is one of the reasons I wake up every day.',
     'section.fitness.p2':
-      'I work as a Personal Trainer and Pilates instructor at two gyms in the Milan metropolitan area.',
+      'I work as a <a href="/en/qualifications">Personal Trainer and Pilates instructor</a> at two gyms in the Milan metropolitan area.',
+    'qualifiche.title': 'Qualifications',
+    'qualifiche.description':
+      'The qualifications and certifications of Antonio Castaldi as a Personal Trainer and Pilates Reformer and Cadillac instructor.',
+    'qualifiche.intro':
+      'My certifications as a Personal Trainer and Pilates instructor.',
+    'qualifiche.back': '← Back to home',
+    'qualifiche.pesistica.label': 'Certified Fitness Trainer',
+    'qualifiche.pesistica.body': 'MSP Italia — 05/12/2025',
+    'qualifiche.reformer.label': 'Pilates Reformer Level 1',
+    'qualifiche.reformer.body': 'Zen Studio Pilates — 16/11/2025',
+    'qualifiche.cadillac.label': 'Pilates Cadillac Level 1',
+    'qualifiche.cadillac.body': 'Zen Studio Pilates — 21/02/2026',
+    'qualifiche.alt.pesistica':
+      'Certified Fitness Trainer diploma issued by MSP Italia',
+    'qualifiche.alt.reformer':
+      'Pilates Reformer Level 1 diploma issued by Zen Studio Pilates',
+    'qualifiche.alt.cadillac':
+      'Pilates Cadillac Level 1 diploma issued by Zen Studio Pilates',
+    'qualifiche.zoom.pesistica': 'Enlarge the Certified Fitness Trainer diploma',
+    'qualifiche.zoom.reformer': 'Enlarge the Pilates Reformer Level 1 diploma',
+    'qualifiche.zoom.cadillac': 'Enlarge the Pilates Cadillac Level 1 diploma',
+    'qualifiche.close': 'Close',
     'section.cnv.title': 'Nonviolent Communication',
     'section.cnv.p1':
       'Marshall Rosenberg\'s Nonviolent Communication places emotions and needs at the centre. I have studied it extensively and find it an exceptional tool for connecting with myself and others. I use it daily.',
