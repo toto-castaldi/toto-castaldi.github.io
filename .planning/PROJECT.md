@@ -10,9 +10,19 @@ La pagina personale di Toto deve essere visibile e aggiornata su https://toto-ca
 
 ## Current State
 
-**Shipped v3.0 Qualifiche Fitness (2026-06-03)** — live at https://toto-castaldi.github.io/qualifiche/ and /en/qualifications/. Awaiting next milestone.
+**Planning v3.1 Manutenzione, Governance & Qualifiche** — v3.0 live at https://toto-castaldi.github.io/qualifiche/ and /en/qualifications/.
 
 Milestones shipped: v1.0 Tech Rebuild · v2.0 Enhancement & i18n · v3.0 Qualifiche Fitness.
+
+## Current Milestone: v3.1 Manutenzione, Governance & Qualifiche
+
+**Goal:** Mettere in sicurezza le dipendenze, formalizzare le decisioni di redazione dei diplomi, ripulire la tracciabilità di pianificazione, ed estendere il pattern qualifiche a nuovi contenuti — mantenendo Lighthouse 100×4 e lo stack statico zero-deps.
+
+**Target features:**
+- Risoluzione delle vulnerabilità Dependabot e bump controllato di Astro/dipendenze (build + Lighthouse 100×4 invariati)
+- ADR/decisione che formalizza i criteri di redazione PII dei diplomi (firme/numeri redatti, docente Reformer rivelato senza firma)
+- Igiene di tracciabilità: requisiti/checkbox e flag artefatti riconciliati prima della chiusura milestone
+- Estensione del pattern qualifiche (pagina multilingua + `<dialog>` zoom + redazione) a nuovi contenuti/diplomi
 
 ## Last Milestone: v3.0 Qualifiche Fitness (shipped)
 
@@ -55,7 +65,7 @@ Milestones shipped: v1.0 Tech Rebuild · v2.0 Enhancement & i18n · v3.0 Qualifi
 
 ### Active
 
-_(none — v3.0 Qualifiche Fitness delivered; awaiting next milestone)_
+_(v3.1 Manutenzione, Governance & Qualifiche — see `.planning/REQUIREMENTS.md` for scoped REQ-IDs)_
 
 ### Out of Scope
 
@@ -126,4 +136,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-06-03 — after v3.0 Qualifiche Fitness milestone*
+*Last updated: 2026-06-03 — starting v3.1 Manutenzione, Governance & Qualifiche milestone*
