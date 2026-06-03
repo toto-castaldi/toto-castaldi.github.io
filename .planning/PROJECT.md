@@ -8,9 +8,15 @@ Landing page personale bilingue (IT/EN) di Antonio Castaldi (Toto), costruita co
 
 La pagina personale di Toto deve essere visibile e aggiornata su https://toto-castaldi.github.io/ con un stack moderno e manutenibile.
 
-## Current Milestone: v3.0 Qualifiche Fitness
+## Current State
 
-**Goal:** Aggiungere una pagina dedicata e multilingua che mostra le qualifiche di Toto come Personal Trainer e istruttore di Pilates, con anteprime dei diplomi, nello stesso stile della home.
+**Shipped v3.0 Qualifiche Fitness (2026-06-03)** — live at https://toto-castaldi.github.io/qualifiche/ and /en/qualifications/. Awaiting next milestone.
+
+Milestones shipped: v1.0 Tech Rebuild · v2.0 Enhancement & i18n · v3.0 Qualifiche Fitness.
+
+## Last Milestone: v3.0 Qualifiche Fitness (shipped)
+
+**Goal:** Aggiungere una pagina dedicata e multilingua che mostra le qualifiche di Toto come Personal Trainer e istruttore di Pilates, con anteprime dei diplomi, nello stesso stile della home. — ✅ delivered (Phase 7, verified 10/10, deployed).
 
 **Target features:**
 - Pagina dedicata `/qualifiche` (IT) e `/en/qualifications` (EN), linkata dalla sezione Fitness
@@ -120,4 +126,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-06-03 — Phase 7 complete; v3.0 Qualifiche Fitness delivered*
+*Last updated: 2026-06-03 — after v3.0 Qualifiche Fitness milestone*

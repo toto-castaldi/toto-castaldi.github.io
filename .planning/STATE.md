@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v3.0
 milestone_name: Qualifiche Fitness
-status: "Phase 07 shipped — PR #22"
-stopped_at: Phase 7 context gathered
-last_updated: "2026-06-03T14:13:05.779Z"
-last_activity: 2026-06-03
+status: Awaiting next milestone
+stopped_at: Milestone v3.0 complete
+last_updated: "2026-06-03T14:27:41.044Z"
+last_activity: 2026-06-03 — Milestone v3.0 completed and archived
 progress:
   total_phases: 1
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 3
   completed_plans: 3
-  percent: 0
+  percent: 100
 ---
 
 # Project State
@@ -25,10 +25,10 @@ See: .planning/PROJECT.md (updated 2026-06-03)
 
 ## Current Position
 
-Phase: 07
-Plan: Not started
-Status: Phase 07 shipped — PR #22
-Last activity: 2026-06-03
+Phase: Milestone v3.0 complete
+Plan: —
+Status: Awaiting next milestone
+Last activity: 2026-06-03 — Milestone v3.0 completed and archived
 
 ## Accumulated Context
 
@@ -42,9 +42,18 @@ None.
 
 ### Blockers/Concerns
 
-- I PDF sorgente vivono fuori dal repo (`~/Documents/pt/`, `~/Documents/pilates/`): vanno convertiti in immagini redatte (PII oscurati) e collocati sotto `public/` durante l'esecuzione di Phase 7.
-- `Base.astro` hardcoda hreflang/canonical verso la root: vanno resi path-aware per la nuova pagina (rischio per INT-03).
-- [Phase 7 plan gate override 2026-06-03] The mechanical decision-coverage-plan gate reported 0/15 (null message) at plan-phase. Override accepted: all 15 D-01..D-15 literals are present in the plans and the gsd-plan-checker independently traced every decision to a task (Dimension 7). Treated as a false positive from the gate's narrow field scan, not a dropped decision. verify-phase may re-surface this — confirm decision coverage during verification.
+None — all Phase 7 concerns resolved at milestone close:
+- Source PDFs redacted to pixel-burned WebP previews (07-01); no PDF published.
+- `Base.astro` made path-aware via the `alternates` prop (07-02); hreflang reciprocal + canonical-consistent (WR-02 fixed).
+- Decision-coverage gate false-positive confirmed: verifier traced all 10 requirements (10/10) and decisions to tasks.
+
+## Deferred Items
+
+Items acknowledged and deferred at milestone v3.0 close on 2026-06-03:
+
+| Category | Item | Status |
+|----------|------|--------|
+| quick_task | 1-fix-language-selector-overlapping-headin | resolved (stale audit flag — completed 2026-02-21, commit aedae71; recorded under Quick Tasks Completed) |
 
 ### Quick Tasks Completed
 
@@ -54,5 +63,9 @@ None.
 
 ## Session Continuity
 
-Last session: 2026-06-03T11:47:38.483Z
-Stopped at: Phase 7 context gathered
+Last session: 2026-06-03T14:27:41.044Z
+Stopped at: Milestone v3.0 complete
+
+## Operator Next Steps
+
+- Start the next milestone with /gsd-new-milestone
