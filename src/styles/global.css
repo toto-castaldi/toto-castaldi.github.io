@@ -134,3 +134,72 @@ hr {
   border-top: 1px solid var(--color-border);
   margin-block: 2.5rem;
 }
+
+/* === Qualifiche: figures, previews, zoom dialog === */
+figure {
+  margin: 0;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--color-border);
+}
+
+figcaption {
+  margin-block-start: 0.5rem;
+  color: var(--color-text-secondary);
+}
+
+/* Borderless, full-width zoom trigger wrapping the preview image */
+button.zoom-trigger {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: none;
+  cursor: zoom-in;
+  width: 100%;
+  display: block;
+}
+
+/* Native <dialog> modal: centered, contained, theme-aware */
+dialog.zoom-dialog {
+  max-width: min(95vw, 1000px);
+  max-height: 95vh;
+  width: auto;
+  padding: 0;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+dialog.zoom-dialog img {
+  max-width: 100%;
+  max-height: calc(95vh - 3rem);
+  height: auto;
+  display: block;
+}
+
+dialog.zoom-dialog .zoom-close {
+  position: sticky;
+  top: 0;
+  margin-inline-start: auto;
+  display: block;
+  border: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-size: 1.5rem;
+  line-height: 1;
+  padding: 0.25rem 0.6rem;
+  cursor: pointer;
+}
+
+dialog.zoom-dialog .zoom-close:hover,
+dialog.zoom-dialog .zoom-close:focus-visible {
+  color: var(--color-link);
+}
+
+dialog.zoom-dialog::backdrop {
+  background: rgb(0 0 0 / 0.7);
+}

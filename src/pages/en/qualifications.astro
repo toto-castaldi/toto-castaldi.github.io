@@ -1,0 +1,82 @@
+---
+import Base from '../../layouts/Base.astro';
+import Section from '../../components/Section.astro';
+import { useTranslations } from '../../i18n/utils';
+
+const t = useTranslations('en');
+
+const qualifiche = [
+  {
+    slug: 'pesistica',
+    file: 'qualifica-pesistica.webp',
+    width: 1000,
+    height: 1414,
+  },
+  {
+    slug: 'reformer',
+    file: 'qualifica-pilates-reformer.webp',
+    width: 1000,
+    height: 707,
+  },
+  {
+    slug: 'cadillac',
+    file: 'qualifica-pilates-cadillac.webp',
+    width: 1000,
+    height: 707,
+  },
+] as const;
+---
+<Base
+  title={t('qualifiche.title')}
+  description={t('qualifiche.description')}
+  alternates={{ it: '/qualifiche', en: '/en/qualifications' }}
+>
+  <main>
+    <h1>{t('qualifiche.title')}</h1>
+    <p>{t('qualifiche.intro')}</p>
+    <p><a href="/en/">{t('qualifiche.back')}</a></p>
+
+    {qualifiche.map((q) => (
+      <Section title={t(`qualifiche.${q.slug}.label`)} id={q.slug}>
+        <figure>
+          <button
+            type="button"
+            class="zoom-trigger"
+            command="show-modal"
+            commandfor={`dlg-${q.slug}`}
+            aria-label={t(`qualifiche.zoom.${q.slug}`)}
+          >
+            <img
+              src={`/assets/images/${q.file}`}
+              width={q.width}
+              height={q.height}
+              loading="lazy"
+              decoding="async"
+              alt={t(`qualifiche.alt.${q.slug}`)}
+            />
+          </button>
+          <figcaption>{t(`qualifiche.${q.slug}.body`)}</figcaption>
+        </figure>
+
+        <dialog id={`dlg-${q.slug}`} class="zoom-dialog">
+          <button
+            type="button"
+            class="zoom-close"
+            command="close"
+            commandfor={`dlg-${q.slug}`}
+            aria-label={t('qualifiche.close')}
+          >×</button>
+          <img
+            src={`/assets/images/${q.file}`}
+            width={q.width}
+            height={q.height}
+            decoding="async"
+            alt={t(`qualifiche.alt.${q.slug}`)}
+          />
+        </dialog>
+      </Section>
+    ))}
+
+    <p><a href="/en/">{t('qualifiche.back')}</a></p>
+  </main>
+</Base>
