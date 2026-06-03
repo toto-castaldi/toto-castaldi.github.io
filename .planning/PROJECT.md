@@ -42,12 +42,14 @@ La pagina personale di Toto deve essere visibile e aggiornata su https://toto-ca
 - ✓ Lighthouse Accessibility >= 95 — v2.0 (achieved 100)
 - ✓ Lighthouse Best Practices >= 95 — v2.0 (achieved 100)
 - ✓ Lighthouse SEO >= 95 — v2.0 (achieved 100)
+- ✓ Pagina qualifiche dedicata multilingua (IT/EN) nello stile della home — v3.0 (Phase 7)
+- ✓ Anteprime immagine dei 3 diplomi con PII oscurati, nessun PDF scaricabile — v3.0 (Phase 7)
+- ✓ Link alla pagina qualifiche dalla sezione Fitness — v3.0 (Phase 7)
+- ✓ Lighthouse 100/100/100/100 mantenuto sulle nuove pagine — v3.0 (Phase 7)
 
 ### Active
 
-- Pagina qualifiche dedicata multilingua (IT/EN) nello stile della home — v3.0
-- Anteprime immagine dei 3 diplomi con PII oscurati, nessun PDF scaricabile — v3.0
-- Link alla pagina qualifiche dalla sezione Fitness — v3.0
+_(none — v3.0 Qualifiche Fitness delivered; awaiting next milestone)_
 
 ### Out of Scope
 
@@ -69,6 +71,7 @@ Bilingual IT (/) and EN (/en/) with browser language detection and localStorage 
 Dark mode with FOUC prevention, system preference detection, and WCAG AA contrast.
 Complete SEO: Person JSON-LD, hreflang, og:image, Twitter Cards, smooth scroll anchors.
 Lighthouse scores: 100/100/100/100 on all categories.
+v3.0 adds a dedicated multilingual qualifiche page (/qualifiche, /en/qualifications) with three irreversibly-redacted diploma previews (WebP), a native-<dialog> accessible zoom, reciprocal hreflang, and a link from the Fitness section — Lighthouse 100×4 maintained.
 
 ## Constraints
 
@@ -95,6 +98,9 @@ Lighthouse scores: 100/100/100/100 on all categories.
 | Static PNG per og:image | Simple Python PIL generation, Satori deferred to future | ✓ Good |
 | localStorage per lang preference | Prevents auto-redirect bounce, simple key-value persistence | ✓ Good |
 | Descriptive link text over generic | Lighthouse SEO link-text audit compliance, better accessibility | ✓ Good |
+| Redazione PII bruciata nei pixel (convert -draw, no blur/CSS) | Oscuramento irreversibile delle firme di terzi + N.39740; nessun PDF pubblicato | ✓ Good — v3.0 |
+| Zoom diploma via <dialog> + Invoker Commands (no JS author) | A11y nativa (focus trap, ESC, return-focus) a zero JS; degrada con grazia su browser pre-2025 | ✓ Good — v3.0 |
+| alternates prop su Base.astro per hreflang path-aware | Pagine non-home dichiarano hreflang reciproco senza far regredire le home | ✓ Good — v3.0 |
 
 ## Evolution
 
@@ -114,4 +120,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-06-03 — started v3.0 Qualifiche Fitness milestone*
+*Last updated: 2026-06-03 — Phase 7 complete; v3.0 Qualifiche Fitness delivered*
