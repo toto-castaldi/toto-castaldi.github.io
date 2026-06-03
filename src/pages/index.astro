@@ -43,7 +43,7 @@ const t = useTranslations('it');
 
     <Section title={t('section.fitness.title')} id="fitness">
       <p>{t('section.fitness.p1')}</p>
-      <p>{t('section.fitness.p2')}</p>
+      <p set:html={t('section.fitness.p2')} />
     </Section>
 
     <Section title={t('section.cnv.title')} id="cnv">
