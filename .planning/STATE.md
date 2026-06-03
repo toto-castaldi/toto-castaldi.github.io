@@ -3,8 +3,9 @@ gsd_state_version: 1.0
 milestone: v3.1
 milestone_name: Manutenzione, Governance & Qualifiche
 status: planning
-last_updated: "2026-06-03T15:14:45.096Z"
-last_activity: 2026-06-03
+stopped_at: Phase 8 context gathered
+last_updated: "2026-06-03T15:29:28.292Z"
+last_activity: 2026-06-03 — v3.1 roadmap created (Phases 8-11, 12/12 requirements mapped)
 progress:
   total_phases: 4
   completed_phases: 0
@@ -36,6 +37,7 @@ Last activity: 2026-06-03 — v3.1 roadmap created (Phases 8-11, 12/12 requireme
 Full decision log in PROJECT.md Key Decisions table.
 
 v3.1 roadmap decisions:
+
 - One phase per requirement category (SEC/GOV/DOC/QUAL), security first.
 - Phase 11 (estensione qualifiche) depends on Phase 10 (ADR redazione) — i criteri di redazione formalizzati sono prerequisito della procedura "aggiungi diploma".
 - Phases 8-11 numbered continuing from v3.0 (ended at Phase 7).
@@ -65,8 +67,8 @@ Items acknowledged and deferred at milestone v3.0 close on 2026-06-03:
 
 ## Session Continuity
 
-Last session: 2026-06-03T15:14:45.096Z
-Stopped at: v3.1 roadmap created (Phases 8-11)
+Last session: 2026-06-03T15:29:28.267Z
+Stopped at: Phase 8 context gathered
 
 ## Operator Next Steps
 
