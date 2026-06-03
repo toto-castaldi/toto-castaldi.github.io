@@ -38,7 +38,7 @@ Pagina dedicata IT/EN (`/qualifiche`, `/en/qualifications`) con anteprime redatt
 
 ### 🚧 v3.1 Manutenzione, Governance & Qualifiche (Phases 8-11)
 
-- [ ] **Phase 8: Sicurezza dipendenze (Dependabot)** — Azzerare/ridurre le vuln Dependabot e bump controllato di Astro/dipendenze mantenendo build, deploy e Lighthouse 100×4.
+- [x] **Phase 8: Sicurezza dipendenze (Dependabot)** — Azzerare/ridurre le vuln Dependabot e bump controllato di Astro/dipendenze mantenendo build, deploy e Lighthouse 100×4. — completed 2026-06-03 (2/2 plans; 0 high vulns, deploy run 26897503458 success, Lighthouse 100×4)
 - [ ] **Phase 9: Igiene tracciabilità planning** — Riconciliare checkbox↔verifica, sistemare il falso positivo "stale artifact" v2.0 e introdurre un gate di coerenza pre-chiusura.
 - [ ] **Phase 10: ADR / decisione redazione diplomi PII** — Formalizzare in un ADR i criteri di redazione PII dei diplomi e registrare le modifiche ad-hoc del 2026-06-03.
 - [ ] **Phase 11: Estendere pattern qualifiche / nuovi diplomi** — Fattorizzare anteprime+zoom in un componente data-driven e documentare la procedura per aggiungere un diploma.
@@ -56,7 +56,7 @@ Pagina dedicata IT/EN (`/qualifiche`, `/en/qualifications`) con anteprime redatt
   4. Lighthouse riporta 100/100/100/100 su home (IT/EN) e qualifiche dopo gli aggiornamenti.
 **Plans**: 2 plans
   - [x] 08-01-PLAN.md — Fix fixable vulns (npm audit fix + npm update), document accepted astro moderate residuals, add minimal Dependabot config — completed 2026-06-03 (0 high; 2 moderate residuals, GHSA-g735 resolved by 5.18.2)
-  - [ ] 08-02-PLAN.md — De-risk deploy: clean npm ci + build, Lighthouse 100×4, confirm GitHub Pages deploy success
+  - [x] 08-02-PLAN.md — De-risk deploy: clean npm ci + build, Lighthouse 100×4, confirm GitHub Pages deploy success — completed 2026-06-03 (build exit 0; deploy run 26897503458 success closing prior failure 25837277597; Lighthouse 100×4)
 
 ### Phase 9: Igiene tracciabilità planning
 **Goal**: Riconciliare lo stato meccanico dei checkbox con lo stato verificato, chiarire e documentare il falso positivo "stale artifact" del quick task v2.0, e stabilire un controllo di coerenza riproducibile prima della chiusura milestone. (Sola pianificazione/docs — nessun codice applicativo.)
@@ -103,7 +103,7 @@ Pagina dedicata IT/EN (`/qualifiche`, `/en/qualifications`) con anteprime redatt
 | 5. SEO & Metadata | v2.0 | 2/2 | Complete | 2026-02-20 |
 | 6. Lighthouse Audit | v2.0 | 1/1 | Complete | 2026-02-20 |
 | 7. Pagina Qualifiche Multilingua | v3.0 | 3/3 | Complete | 2026-06-03 |
-| 8. Sicurezza dipendenze (Dependabot) | v3.1 | 1/2 | In Progress | - |
+| 8. Sicurezza dipendenze (Dependabot) | v3.1 | 2/2 | Complete | 2026-06-03 |
 | 9. Igiene tracciabilità planning | v3.1 | 0/? | Not started | - |
 | 10. ADR / redazione diplomi PII | v3.1 | 0/? | Not started | - |
 | 11. Estendere pattern qualifiche | v3.1 | 0/? | Not started | - |

@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v3.1
 milestone_name: Manutenzione, Governance & Qualifiche
 status: executing
-stopped_at: Phase 8 context gathered
-last_updated: "2026-06-03T16:00:00.000Z"
-last_activity: 2026-06-03 -- Phase 08 Plan 01 complete (0 high vulns, Dependabot config)
+stopped_at: Phase 8 complete (2/2 plans) — awaiting phase verification
+last_updated: "2026-06-03T16:20:00.000Z"
+last_activity: 2026-06-03 -- Phase 08 Plan 02 complete (clean build, deploy run 26897503458 success, Lighthouse 100×4)
 progress:
   total_phases: 4
   completed_phases: 0
   total_plans: 2
-  completed_plans: 1
-  percent: 50
+  completed_plans: 2
+  percent: 100
 ---
 
 # Project State
@@ -25,10 +25,10 @@ See: .planning/PROJECT.md (updated 2026-06-03)
 
 ## Current Position
 
-Phase: 08 (sicurezza-dipendenze-dependabot) — EXECUTING
-Plan: 2 of 2 (08-01 complete)
-Status: Executing Phase 08
-Last activity: 2026-06-03 -- Phase 08 Plan 01 complete (0 high vulns, Dependabot config)
+Phase: 08 (sicurezza-dipendenze-dependabot) — COMPLETE (2/2 plans), awaiting phase verification
+Plan: 2 of 2 (08-01 + 08-02 complete)
+Status: Phase 08 plans complete
+Last activity: 2026-06-03 -- Phase 08 Plan 02 complete (clean npm ci + build exit 0, deploy run 26897503458 success, Lighthouse 100×4)
 
 ## Accumulated Context
 
@@ -48,8 +48,8 @@ None.
 
 ### Blockers/Concerns
 
-- Phase 8: precedente bump Dependabot di astro fallito (run 25837277597) — il deploy GitHub Pages deve essere ri-verificato dopo l'aggiornamento.
-- 22 vulnerabilità Dependabot aperte (8 high, 10 moderate, 4 low) segnalate a ogni push.
+- ~~Phase 8: precedente bump Dependabot di astro fallito (run 25837277597) — il deploy GitHub Pages deve essere ri-verificato dopo l'aggiornamento.~~ **RESOLVED (08-02):** deploy run 26897503458 success; il fallimento precedente è chiuso.
+- ~~22 vulnerabilità Dependabot aperte (8 high, 10 moderate, 4 low) segnalate a ogni push.~~ **RESOLVED (08-01):** 0 high; 2 moderate astro residuals accettati e documentati (RESIDUAL-ADVISORIES.md).
 
 ## Deferred Items
 
@@ -67,9 +67,10 @@ Items acknowledged and deferred at milestone v3.0 close on 2026-06-03:
 
 ## Session Continuity
 
-Last session: 2026-06-03T16:00:00.000Z
-Stopped at: Completed 08-01-PLAN.md (supply-chain checkpoint T-08-SC approved)
+Last session: 2026-06-03T16:20:00.000Z
+Stopped at: Completed 08-02-PLAN.md (Lighthouse + deploy checkpoints approved; SEC-03/SEC-04 complete)
 
 ## Operator Next Steps
 
-- Execute 08-02-PLAN.md: clean npm ci + build, Lighthouse 100×4, confirm GitHub Pages deploy success.
+- Verify Phase 08 (both plans complete), then push the finalization commit.
+- Next: plan Phase 09 (igiene tracciabilità planning, GOV-01–GOV-03) — independent, can start anytime.
