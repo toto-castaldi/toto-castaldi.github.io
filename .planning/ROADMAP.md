@@ -50,8 +50,8 @@
 Plans:
 **Wave 1**
 
-- [ ] 07-01-PLAN.md — Pipeline di redazione PDF→WebP: anteprime dei 3 diplomi con PII di terzi oscurati a livello di pixel (QUAL-04)
-- [ ] 07-02-PLAN.md — Fondamenta condivise: Base.astro path-aware (hreflang), chiavi i18n qualifiche.*, link nella sezione Fitness (INT-01/02/03)
+- [x] 07-01-PLAN.md — Pipeline di redazione PDF→WebP: anteprime dei 3 diplomi con PII di terzi oscurati a livello di pixel (QUAL-04)
+- [x] 07-02-PLAN.md — Fondamenta condivise: Base.astro path-aware (hreflang), chiavi i18n qualifiche.*, link nella sezione Fitness (INT-01/02/03)
 
 **Wave 2** *(blocked on Wave 1 completion)*
 
@@ -75,4 +75,4 @@ Plans:
 | 4. Dark Mode | v2.0 | 1/1 | Complete | 2026-02-20 |
 | 5. SEO & Metadata | v2.0 | 2/2 | Complete | 2026-02-20 |
 | 6. Lighthouse Audit | v2.0 | 1/1 | Complete | 2026-02-20 |
-| 7. Pagina Qualifiche Multilingua | v3.0 | 0/3 | Not started | - |
+| 7. Pagina Qualifiche Multilingua | v3.0 | 2/3 | In Progress|  |
