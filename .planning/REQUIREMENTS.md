@@ -7,8 +7,8 @@
 
 ### Sicurezza dipendenze (SEC)
 
-- [ ] **SEC-01**: Le vulnerabilità Dependabot note sono azzerate (high/moderate) o, se irrisolvibili, documentate con motivazione e mitigazione.
-- [ ] **SEC-02**: Astro e le dipendenze sono aggiornate a versioni supportate e prive di vulnerabilità note, con `npm audit` pulito (o residui giustificati).
+- [x] **SEC-01**: Le vulnerabilità Dependabot note sono azzerate (high/moderate) o, se irrisolvibili, documentate con motivazione e mitigazione.
+- [x] **SEC-02**: Astro e le dipendenze sono aggiornate a versioni supportate e prive di vulnerabilità note, con `npm audit` pulito (o residui giustificati).
 - [ ] **SEC-03**: Dopo gli aggiornamenti il sito builda e il deploy GitHub Pages va a buon fine.
 - [ ] **SEC-04**: Lighthouse 100/100/100/100 è mantenuto dopo gli aggiornamenti delle dipendenze.
 
@@ -45,8 +45,8 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SEC-01 | Phase 8 | Pending |
-| SEC-02 | Phase 8 | Pending |
+| SEC-01 | Phase 8 | Complete (08-01) |
+| SEC-02 | Phase 8 | Complete (08-01) |
 | SEC-03 | Phase 8 | Pending |
 | SEC-04 | Phase 8 | Pending |
 | GOV-01 | Phase 9 | Pending |
