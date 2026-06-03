@@ -42,7 +42,13 @@
   3. La pagina riusa `Base.astro` e `Section.astro`, supporta dark/light mode e usa tutti i testi dal dizionario i18n (`src/i18n/ui.ts`) con versioni IT ed EN.
   4. Dalla sezione Fitness della home (IT ed EN) l'utente può cliccare un link che porta alla rispettiva pagina qualifiche nella stessa lingua.
   5. Le due pagine hanno metadati SEO corretti e tag hreflang reciproci IT↔EN, e mantengono Lighthouse 100/100/100/100.
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [ ] 07-01-PLAN.md — Pipeline di redazione PDF→WebP: anteprime dei 3 diplomi con PII di terzi oscurati a livello di pixel (QUAL-04)
+- [ ] 07-02-PLAN.md — Fondamenta condivise: Base.astro path-aware (hreflang), chiavi i18n qualifiche.*, link nella sezione Fitness (INT-01/02/03)
+- [ ] 07-03-PLAN.md — Le due pagine /qualifiche e /en/qualifications: anteprime, zoom accessibile, hreflang reciproci, Lighthouse 100 (QUAL-01/02/03/05/06, INT-04)
+
 **UI hint**: yes
 
 **Implementation notes** (per plan-phase):
@@ -60,4 +66,4 @@
 | 4. Dark Mode | v2.0 | 1/1 | Complete | 2026-02-20 |
 | 5. SEO & Metadata | v2.0 | 2/2 | Complete | 2026-02-20 |
 | 6. Lighthouse Audit | v2.0 | 1/1 | Complete | 2026-02-20 |
-| 7. Pagina Qualifiche Multilingua | v3.0 | 0/? | Not started | - |
+| 7. Pagina Qualifiche Multilingua | v3.0 | 0/3 | Not started | - |
