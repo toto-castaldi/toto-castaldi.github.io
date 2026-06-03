@@ -36,13 +36,13 @@ Scope: pagina dedicata e multilingua che mostra le qualifiche di Toto come Perso
 
 | REQ-ID | Phase | Status |
 |--------|-------|--------|
-| QUAL-01 | — | Pending |
-| QUAL-02 | — | Pending |
-| QUAL-03 | — | Pending |
-| QUAL-04 | — | Pending |
-| QUAL-05 | — | Pending |
-| QUAL-06 | — | Pending |
-| INT-01 | — | Pending |
-| INT-02 | — | Pending |
-| INT-03 | — | Pending |
-| INT-04 | — | Pending |
+| QUAL-01 | Phase 7 | Pending |
+| QUAL-02 | Phase 7 | Pending |
+| QUAL-03 | Phase 7 | Pending |
+| QUAL-04 | Phase 7 | Pending |
+| QUAL-05 | Phase 7 | Pending |
+| QUAL-06 | Phase 7 | Pending |
+| INT-01 | Phase 7 | Pending |
+| INT-02 | Phase 7 | Pending |
+| INT-03 | Phase 7 | Pending |
+| INT-04 | Phase 7 | Pending |

@@ -6,7 +6,7 @@ status: planning
 last_updated: "2026-06-03T11:27:49.862Z"
 last_activity: 2026-06-03
 progress:
-  total_phases: 0
+  total_phases: 1
   completed_phases: 0
   total_plans: 0
   completed_plans: 0
@@ -17,17 +17,17 @@ progress:
 
 ## Project Reference
 
-See: .planning/PROJECT.md (updated 2026-02-20)
+See: .planning/PROJECT.md (updated 2026-06-03)
 
 **Core value:** La pagina personale di Toto deve essere visibile e aggiornata su https://toto-castaldi.github.io/ con un stack moderno e manutenibile.
-**Current focus:** Planning next milestone
+**Current focus:** v3.0 Qualifiche Fitness — Phase 7 (Pagina Qualifiche Multilingua)
 
 ## Current Position
 
-Phase: Not started (defining requirements)
+Phase: 7 — Pagina Qualifiche Multilingua (not started)
 Plan: —
-Status: Defining requirements
-Last activity: 2026-06-03 — Milestone v3.0 started
+Status: Roadmap created, ready to plan Phase 7
+Last activity: 2026-06-03 — Roadmap v3.0 created (Phase 7), 10/10 requirements mapped
 
 ## Accumulated Context
 
@@ -41,7 +41,8 @@ None.
 
 ### Blockers/Concerns
 
-None.
+- I PDF sorgente vivono fuori dal repo (`~/Documents/pt/`, `~/Documents/pilates/`): vanno convertiti in immagini redatte (PII oscurati) e collocati sotto `public/` durante l'esecuzione di Phase 7.
+- `Base.astro` hardcoda hreflang/canonical verso la root: vanno resi path-aware per la nuova pagina (rischio per INT-03).
 
 ### Quick Tasks Completed
 
@@ -51,5 +52,5 @@ None.
 
 ## Session Continuity
 
-Last session: 2026-02-21
-Stopped at: Completed quick-1 fix language selector overlapping heading
+Last session: 2026-06-03
+Stopped at: Roadmap v3.0 created — Phase 7 defined, ready for `/gsd:plan-phase 7`
