@@ -33,25 +33,34 @@
 ## Phase Details
 
 ### Phase 7: Pagina Qualifiche Multilingua
+
 **Goal**: L'utente può visitare una pagina dedicata, nello stile della home, che mostra le tre qualifiche fitness di Toto come anteprime immagine con i dati personali oscurati, in italiano e in inglese, raggiungibile dalla sezione Fitness.
 **Depends on**: Phase 6 (build i18n, dark mode, SEO già consolidati)
 **Requirements**: QUAL-01, QUAL-02, QUAL-03, QUAL-04, QUAL-05, QUAL-06, INT-01, INT-02, INT-03, INT-04
 **Success Criteria** (what must be TRUE):
+
   1. L'utente visita `/qualifiche` (IT) e `/en/qualifications` (EN) e vede le tre qualifiche — Pesistica (Personal Trainer), Pilates Reformer 1, Pilates Cadillac 1 — ciascuna con anteprima immagine, titolo/etichetta e alt-text descrittivo.
   2. Le anteprime mostrano i diplomi con i dati personali sensibili oscurati; nessun PDF originale è scaricabile o pubblicato sul sito.
   3. La pagina riusa `Base.astro` e `Section.astro`, supporta dark/light mode e usa tutti i testi dal dizionario i18n (`src/i18n/ui.ts`) con versioni IT ed EN.
   4. Dalla sezione Fitness della home (IT ed EN) l'utente può cliccare un link che porta alla rispettiva pagina qualifiche nella stessa lingua.
   5. Le due pagine hanno metadati SEO corretti e tag hreflang reciproci IT↔EN, e mantengono Lighthouse 100/100/100/100.
+
 **Plans**: 3 plans
 
 Plans:
+**Wave 1**
+
 - [ ] 07-01-PLAN.md — Pipeline di redazione PDF→WebP: anteprime dei 3 diplomi con PII di terzi oscurati a livello di pixel (QUAL-04)
 - [ ] 07-02-PLAN.md — Fondamenta condivise: Base.astro path-aware (hreflang), chiavi i18n qualifiche.*, link nella sezione Fitness (INT-01/02/03)
+
+**Wave 2** *(blocked on Wave 1 completion)*
+
 - [ ] 07-03-PLAN.md — Le due pagine /qualifiche e /en/qualifications: anteprime, zoom accessibile, hreflang reciproci, Lighthouse 100 (QUAL-01/02/03/05/06, INT-04)
 
 **UI hint**: yes
 
 **Implementation notes** (per plan-phase):
+
 - I PDF sorgente vivono FUORI dal repo: `~/Documents/pt/diploma-pesistica-toto.pdf`, `~/Documents/pilates/diploma-toto-pilates-reformer-1.pdf`, `~/Documents/pilates/diploma-toto-pilates-cadillac-1.pdf`. Vanno convertiti in immagini redatte (PII oscurati) e collocati sotto `public/` durante l'esecuzione.
 - `Base.astro` attualmente hardcoda hreflang verso la root (`getAbsoluteLocaleUrl('it','')`) e il Person JSON-LD: hreflang e canonical devono diventare consapevoli del path per la nuova pagina (altrimenti INT-03 fallisce). Valutare se parametrizzare `Base.astro` o gestire gli alternate a livello di pagina.
 - Mantenere zero/minimo JS e ottimizzare le immagini (peso/dimensioni) per non degradare il punteggio Performance.

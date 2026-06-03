@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v3.0
 milestone_name: Qualifiche Fitness
-status: planning
+status: executing
 stopped_at: Phase 7 context gathered
-last_updated: "2026-06-03T11:47:38.509Z"
-last_activity: 2026-06-03 — Roadmap v3.0 created (Phase 7), 10/10 requirements mapped
+last_updated: "2026-06-03T12:18:46.436Z"
+last_activity: 2026-06-03 -- Phase 07 planning complete
 progress:
   total_phases: 1
   completed_phases: 0
-  total_plans: 0
+  total_plans: 3
   completed_plans: 0
   percent: 0
 ---
@@ -27,8 +27,8 @@ See: .planning/PROJECT.md (updated 2026-06-03)
 
 Phase: 7 — Pagina Qualifiche Multilingua (not started)
 Plan: —
-Status: Roadmap created, ready to plan Phase 7
-Last activity: 2026-06-03 — Roadmap v3.0 created (Phase 7), 10/10 requirements mapped
+Status: Ready to execute
+Last activity: 2026-06-03 -- Phase 07 planning complete
 
 ## Accumulated Context
 
@@ -44,6 +44,7 @@ None.
 
 - I PDF sorgente vivono fuori dal repo (`~/Documents/pt/`, `~/Documents/pilates/`): vanno convertiti in immagini redatte (PII oscurati) e collocati sotto `public/` durante l'esecuzione di Phase 7.
 - `Base.astro` hardcoda hreflang/canonical verso la root: vanno resi path-aware per la nuova pagina (rischio per INT-03).
+- [Phase 7 plan gate override 2026-06-03] The mechanical decision-coverage-plan gate reported 0/15 (null message) at plan-phase. Override accepted: all 15 D-01..D-15 literals are present in the plans and the gsd-plan-checker independently traced every decision to a task (Dimension 7). Treated as a false positive from the gate's narrow field scan, not a dropped decision. verify-phase may re-surface this — confirm decision coverage during verification.
 
 ### Quick Tasks Completed
 
