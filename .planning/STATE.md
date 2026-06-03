@@ -1,3 +1,18 @@
+---
+gsd_state_version: 1.0
+milestone: v3.0
+milestone_name: Qualifiche Fitness
+status: planning
+last_updated: "2026-06-03T11:27:49.862Z"
+last_activity: 2026-06-03
+progress:
+  total_phases: 0
+  completed_phases: 0
+  total_plans: 0
+  completed_plans: 0
+  percent: 0
+---
+
 # Project State
 
 ## Project Reference
@@ -9,11 +24,10 @@ See: .planning/PROJECT.md (updated 2026-02-20)
 
 ## Current Position
 
-Milestone: v2.0 Enhancement & i18n -- SHIPPED 2026-02-20
-Status: Milestone complete, awaiting next milestone planning
-Last activity: 2026-02-21 - Completed quick task 1: Fix language selector overlapping heading text on mobile
-
-Progress: [████████████████████] 100% (v1.0 + v2.0 complete)
+Phase: Not started (defining requirements)
+Plan: —
+Status: Defining requirements
+Last activity: 2026-06-03 — Milestone v3.0 started
 
 ## Accumulated Context
 

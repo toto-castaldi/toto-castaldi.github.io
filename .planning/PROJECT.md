@@ -8,6 +8,16 @@ Landing page personale bilingue (IT/EN) di Antonio Castaldi (Toto), costruita co
 
 La pagina personale di Toto deve essere visibile e aggiornata su https://toto-castaldi.github.io/ con un stack moderno e manutenibile.
 
+## Current Milestone: v3.0 Qualifiche Fitness
+
+**Goal:** Aggiungere una pagina dedicata e multilingua che mostra le qualifiche di Toto come Personal Trainer e istruttore di Pilates, con anteprime dei diplomi, nello stesso stile della home.
+
+**Target features:**
+- Pagina dedicata `/qualifiche` (IT) e `/en/qualifications` (EN), linkata dalla sezione Fitness
+- 3 qualifiche mostrate come anteprime immagine: Pesistica (Personal Trainer), Pilates Reformer 1, Pilates Cadillac 1
+- Conversione PDF → immagine con revisione/oscuramento dei dati personali prima della pubblicazione (nessun PDF scaricabile)
+- Stesso layout/stile della home, dark/light mode, i18n IT/EN, hreflang + SEO coerenti (mantenere Lighthouse 100)
+
 ## Requirements
 
 ### Validated
@@ -35,7 +45,9 @@ La pagina personale di Toto deve essere visibile e aggiornata su https://toto-ca
 
 ### Active
 
-(None — planning next milestone)
+- Pagina qualifiche dedicata multilingua (IT/EN) nello stile della home — v3.0
+- Anteprime immagine dei 3 diplomi con PII oscurati, nessun PDF scaricabile — v3.0
+- Link alla pagina qualifiche dalla sezione Fitness — v3.0
 
 ### Out of Scope
 
@@ -84,5 +96,22 @@ Lighthouse scores: 100/100/100/100 on all categories.
 | localStorage per lang preference | Prevents auto-redirect bounce, simple key-value persistence | ✓ Good |
 | Descriptive link text over generic | Lighthouse SEO link-text audit compliance, better accessibility | ✓ Good |
 
+## Evolution
+
+This document evolves at phase transitions and milestone boundaries.
+
+**After each phase transition** (via `/gsd-transition`):
+1. Requirements invalidated? → Move to Out of Scope with reason
+2. Requirements validated? → Move to Validated with phase reference
+3. New requirements emerged? → Add to Active
+4. Decisions to log? → Add to Key Decisions
+5. "What This Is" still accurate? → Update if drifted
+
+**After each milestone** (via `/gsd:complete-milestone`):
+1. Full review of all sections
+2. Core Value check — still the right priority?
+3. Audit Out of Scope — reasons still valid?
+4. Update Context with current state
+
 ---
-*Last updated: 2026-02-20 after v2.0 milestone*
+*Last updated: 2026-06-03 — started v3.0 Qualifiche Fitness milestone*
