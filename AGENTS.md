@@ -30,44 +30,53 @@ Non esiste una suite di test né un linter configurato. La verifica del lavoro a
 
 ```
 astro.config.mjs        # config: site URL + i18n (it default senza prefisso, en con prefisso /en/)
+                         # + plugin rehype che apre i link esterni in nuova scheda
+content/                # ⭐ CONTENUTO del sito — un file .md per pagina per lingua
+  index-it.md           # home italiana: frontmatter SEO + corpo in markdown
+  index-en.md            # home inglese
+  qualifiche-it.md      # qualifiche: tutti i testi nel frontmatter YAML
+  qualifiche-en.md
 src/
+  content.config.ts      # content collections (glob loader) + schemi zod del frontmatter
   i18n/
-    ui.ts               # TUTTI i testi del sito, in italiano e inglese (chiavi 'it' e 'en')
-    utils.ts            # getLangFromUrl(), useTranslations() — helper i18n
+    utils.ts             # getLangFromUrl() — helper i18n
   layouts/
-    Base.astro          # layout condiviso: head, SEO (canonical, Open Graph, hreflang),
-                       # JSON-LD Person, toggle tema chiaro/scuro, link cambio lingua
+    Base.astro           # layout condiviso: head, SEO (canonical, Open Graph, hreflang),
+                         # JSON-LD Person, toggle tema chiaro/scuro, link cambio lingua
   components/
-    Section.astro       # sezione generica con titolo + id ancora
-    ThemeToggle.astro   # switch light/dark (persistito in localStorage)
-  pages/
-    index.astro         # home italiana ( Gestisce anche il redirect automatico
-                       #   in /en/ per browser non-italiani, via localStorage)
-    qualifiche.astro    # qualifiche fitness (certificati pesistica e Pilates)
+    Section.astro        # sezione generica con titolo + id ancora
+    ThemeToggle.astro     # switch light/dark (persistito in localStorage)
+  pages/                 # template SOTTILI: leggono i testi da content/ e impagano
+    index.astro          # home italiana ( gestisce anche il redirect automatico
+                         #   in /en/ per browser non-italiani, via localStorage)
+    qualifiche.astro     # qualifiche fitness (certificati pesistica e Pilates)
     en/
-      index.astro       # home inglese
+      index.astro        # home inglese
       qualifications.astro  # qualifiche in inglese
   styles/
-    global.css          # unico foglio di stile, variabili CSS per tema chiaro/scuro
+    global.css           # unico foglio di stile, variabili CSS per tema chiaro/scuro
 public/
   assets/images/        # immagini (certificati, miniature lezioni Pilates)
-  og-image.png          # immagine per social/Open Graph
+  og-image.png           # immagine per social/Open Graph
   favicon.svg
   CNAME
 .github/workflows/
-  deploy.yml            # CI: build+deploy su GitHub Pages a ogni push su master
-.github/dependabot.yml  # aggiornamento automatico dipendenze
+  deploy.yml             # CI: build+deploy su GitHub Pages a ogni push su master
+.github/dependabot.yml   # aggiornamento automatico dipendenze
 ```
 
 ## Convenzioni e regole importanti
 
-### i18n è la regola #1
+### Il contenuto vive in content/ (regola #1)
 
-- **I testi NON vanno mai scritti direttamente nei componenti**: tutto passa per le chiavi di traduzione in `src/i18n/ui.ts`.
-- Per aggiungere/modificare un contenuto: aggiungere la chiave in **entrambi i dizionari** (`it` ed `en`) e usarla con `useTranslations()`.
+- **I testi NON vanno mai scritti nei componenti .astro**: tutto il contenuto è in file markdown in `content/`, un file per pagina per lingua (`<pagina>-it.md` / `<pagina>-en.md`). Non esiste più un file di traduzioni.
+- **Pagine di puro testo** (home): il corpo della pagina è markdown reso direttamente via `<Content />` di Astro; frontmatter = metadati SEO (`title`, `description`, `og`).
+- **Pagine strutturate** (qualifiche): i testi stanno nel frontmatter YAML e il `.astro` è un template che li impaga.
+- Il frontmatter è **validato da zod** in `src/content.config.ts` al build: se manca/modifichi una chiave, la build fallisce.
+- I link esterni nei `.md` vengono aperti in nuova scheda (`target="_blank" rel="noopener noreferrer"`) dal plugin rehype in `astro.config.mjs` — non serve scriverlo a mano nel markdown.
 - L'italiano è la lingua di default e **non ha prefisso URL** (`/`, `/qualifiche/`); l'inglese vive sotto `/en/` (`/en/`, `/en/qualifications/`).
-- Le pagine delle due lingue devono rimanere speculari: se aggiungi una pagina in `src/pages/`, crea la controparte in `src/pages/en/` e collega gli URL alternati tramite la prop `alternates` di `Base.astro` (usata per `hreflang` e per il link di cambio lingua).
-- Alcune chiavi contengono **HTML inline** (es. link), renderizzato con `set:html` — attenzione quando le si modificano.
+- Le pagine delle due lingue devono rimanere speculari: a ogni file `-it.md` corrisponde un `-en.md`, e i due `.astro` in `src/pages/` puntano alle rispettive entry; collega gli URL alternati tramite la prop `alternates` di `Base.astro` (usata per `hreflang` e per il link di cambio lingua).
+- In dev (`npm run dev`) le modifiche ai `.md` vengono ricaricate a caldo.
 
 ### Deploy
 

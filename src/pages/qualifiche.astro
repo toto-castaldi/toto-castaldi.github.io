@@ -1,82 +1,72 @@
 ---
 import Base from '../layouts/Base.astro';
 import Section from '../components/Section.astro';
-import { useTranslations } from '../i18n/utils';
+import { getEntry } from 'astro:content';
 
-const t = useTranslations('it');
+// I testi vivono nel frontmatter di content/qualifiche-it.md
+const entry = await getEntry('qualifiche', 'qualifiche-it');
+if (!entry) throw new Error('Contenuto mancante: content/qualifiche-it.md');
+const { title, description, og, intro, back, close, certificates } = entry.data;
 
-const qualifiche = [
-  {
-    slug: 'pesistica',
-    file: 'qualifica-pesistica.webp',
-    width: 1000,
-    height: 1414,
-  },
-  {
-    slug: 'reformer',
-    file: 'qualifica-pilates-reformer.webp',
-    width: 1000,
-    height: 707,
-  },
-  {
-    slug: 'cadillac',
-    file: 'qualifica-pilates-cadillac.webp',
-    width: 1000,
-    height: 707,
-  },
+// Dati strutturali delle immagini (uguali in entrambe le lingue)
+const certificati = [
+  { slug: 'pesistica', file: 'qualifica-pesistica.webp', width: 1000, height: 1414 },
+  { slug: 'reformer', file: 'qualifica-pilates-reformer.webp', width: 1000, height: 707 },
+  { slug: 'cadillac', file: 'qualifica-pilates-cadillac.webp', width: 1000, height: 707 },
 ] as const;
 ---
 <Base
-  title={t('qualifiche.title')}
-  description={t('qualifiche.description')}
+  title={title}
+  description={description}
+  og={og}
   alternates={{ it: '/qualifiche/', en: '/en/qualifications/' }}
 >
   <main>
-    <h1>{t('qualifiche.title')}</h1>
-    <p>{t('qualifiche.intro')}</p>
-    <p><a href="/">{t('qualifiche.back')}</a></p>
+    <h1>{title}</h1>
+    <p>{intro}</p>
+    <p><a href="/">{back}</a></p>
 
-    {qualifiche.map((q) => (
-      <Section title={t(`qualifiche.${q.slug}.label`)} id={q.slug}>
+    {certificati.map(({ slug, file, width, height }) => (
+      <Section title={certificates[slug].label} id={slug}>
         <figure>
           <button
             type="button"
             class="zoom-trigger"
             command="show-modal"
-            commandfor={`dlg-${q.slug}`}
-            aria-label={t(`qualifiche.zoom.${q.slug}`)}
+            commandfor={`dlg-${slug}`}
+            aria-label={certificates[slug].zoom}
           >
             <img
-              src={`/assets/images/${q.file}`}
-              width={q.width}
-              height={q.height}
+              src={`/assets/images/${file}`}
+              width={width}
+              height={height}
               loading="lazy"
               decoding="async"
-              alt={t(`qualifiche.alt.${q.slug}`)}
+              alt={certificates[slug].alt}
             />
           </button>
-          <figcaption>{t(`qualifiche.${q.slug}.body`)}</figcaption>
+          <figcaption>{certificates[slug].body}</figcaption>
         </figure>
 
-        <dialog id={`dlg-${q.slug}`} class="zoom-dialog">
+        <dialog id={`dlg-${slug}`} class="zoom-dialog">
           <button
             type="button"
             class="zoom-close"
             command="close"
-            commandfor={`dlg-${q.slug}`}
-            aria-label={t('qualifiche.close')}
+            commandfor={`dlg-${slug}`}
+            aria-label={close}
           >×</button>
           <img
-            src={`/assets/images/${q.file}`}
-            width={q.width}
-            height={q.height}
+            src={`/assets/images/${file}`}
+            width={width}
+            height={height}
             decoding="async"
-            alt={t(`qualifiche.alt.${q.slug}`)}
+            alt={certificates[slug].alt}
           />
         </dialog>
       </Section>
     ))}
 
-    <p><a href="/">{t('qualifiche.back')}</a></p>
+    <p><a href="/">{back}</a></p>
   </main>
 </Base>

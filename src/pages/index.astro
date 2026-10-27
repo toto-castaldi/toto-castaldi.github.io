@@ -1,11 +1,14 @@
 ---
 import Base from '../layouts/Base.astro';
-import Section from '../components/Section.astro';
-import { useTranslations } from '../i18n/utils';
+import { getEntry, render } from 'astro:content';
 
-const t = useTranslations('it');
+// Il contenuto della pagina vive in content/index-it.md
+const entry = await getEntry('home', 'index-it');
+if (!entry) throw new Error('Contenuto mancante: content/index-it.md');
+const { Content } = await render(entry);
+const { title, description, og } = entry.data;
 ---
-<Base title={t('site.title')} description={t('site.description')}>
+<Base title={title} description={description} og={og}>
   <script is:inline>
     (function() {
       var STORAGE_KEY = 'preferred-lang';
@@ -27,35 +30,6 @@ const t = useTranslations('it');
     })();
   </script>
   <main>
-    <h1>{t('site.title')}</h1>
-    <p set:html={t('intro.text')} />
-    <p>{t('intro.sections')}</p>
-
-    <Section title={t('section.entrepreneurship.title')} id="imprenditoria">
-      <p set:html={t('section.entrepreneurship.p1')} />
-      <p>{t('section.entrepreneurship.p2')}</p>
-    </Section>
-
-    <Section title={t('section.cs.title')} id="informatica">
-      <p>{t('section.cs.p1')}</p>
-      <p set:html={t('section.cs.p2')} />
-    </Section>
-
-    <Section title={t('section.fitness.title')} id="fitness">
-      <p>{t('section.fitness.p1')}</p>
-      <p set:html={t('section.fitness.p2')} />
-    </Section>
-
-    <Section title={t('section.cnv.title')} id="cnv">
-      <p>{t('section.cnv.p1')}</p>
-    </Section>
-
-    <hr />
-
-    <footer>
-      <p><Fragment set:html={t('footer.contact')} /> <a href="mailto:toto.castaldi@gmail.com">toto.castaldi@gmail.com</a></p>
-      <hr />
-      <p><strong>{t('footer.noai')}</strong></p>
-    </footer>
+    <Content />
   </main>
 </Base>
