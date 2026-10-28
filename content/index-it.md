@@ -27,7 +27,7 @@ Lavoro come [Personal Trainer e come istruttore di Pilates](/qualifiche) in due 
 
 ## Making
 
-Mi piace "smanettare" con elettronica e informatica per fare l'inventore. Ci sono un po' di cose mie in giro ma il progetto attualemente più attivo è [ArturoBot](https://www.arturobot.it/)
+Mi piace "smanettare" con elettronica e informatica per fare l'inventore. Ci sono un po' di cose mie in giro ma il progetto attualemente più attivo è [ArturoBot](https://www.arturobot.it/).
 
 ## Informatica
 
@@ -43,4 +43,4 @@ La Comunicazione Nonviolenta di Marshall Rosenberg mette al centro emozioni e bi
 
 Mi puoi contattare scrivendomi alla mail [toto.castaldi@gmail.com](mailto:toto.castaldi@gmail.com)
 
-**assistio da AI ma questa pagina è scritta senza**
+**assistito da AI ma questa pagina è scritta senza**
